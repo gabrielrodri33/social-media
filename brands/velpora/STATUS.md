@@ -17,7 +17,7 @@ _Atualize ao fim de cada sessão. Decisões sempre com data._
 2. **Cores do logo vs. paleta oficial** e **uso do ®** (ver BRAND.md): sem resposta ainda.
 3. **Loja e produtos**: loja sendo finalizada, produtos entrando em breve. Até lá: nada de produto nem preço nas artes.
 4. **Troca do @** para velpora.usa.
-5. **Fonte das fotos lifestyle** (banco, IA para ambiente, produção própria): sem resposta ainda.
+5. Fotos lifestyle: **Unsplash** (decidido em 2026-11-26). Falta a access key no ambiente social-media.
 6. Voz ElevenLabs: adiada.
 
 ## Decisões

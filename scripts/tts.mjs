@@ -6,6 +6,7 @@
 // localmente, use ELEVENLABS_API_KEY.
 import {existsSync, readFileSync, writeFileSync} from 'node:fs';
 import path from 'node:path';
+import './_proxy.mjs';
 
 const [brand, postDir] = process.argv.slice(2);
 if (!brand || !postDir) {
@@ -26,7 +27,8 @@ if (existsSync(propsFile)) {
 const text = lines.join(' ');
 const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${cfg.voice_id}/with-timestamps?output_format=mp3_44100_128`, {
   method: 'POST',
-  headers: {'xi-api-key': process.env.ELEVENLABS_API_KEY || 'injected-by-proxy', 'Content-Type': 'application/json'},
+  // Sem ELEVENLABS_API_KEY, não manda header de chave: o proxy injeta a credencial salva no ambiente.
+  headers: {...(process.env.ELEVENLABS_API_KEY ? {'xi-api-key': process.env.ELEVENLABS_API_KEY} : {}), 'Content-Type': 'application/json'},
   body: JSON.stringify({text, model_id: cfg.model_id, language_code: cfg.language_code, voice_settings: cfg.voice_settings}),
 });
 if (!res.ok) {

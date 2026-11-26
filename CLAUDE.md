@@ -92,13 +92,31 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 **lelayer3d**
 - Só use fotos reais das impressões enviadas. Não invente peças, preços nem prazos.
 
+## Fotos de banco (Unsplash)
+
+Decidido em 2026-11-26: fotos de banco vêm da **API do Unsplash** (licença Unsplash: uso comercial, sem marca d'água).
+- Buscar: `node scripts/unsplash.mjs search "<termos em inglês>" --orientation=portrait`
+- Baixar: `node scripts/unsplash.mjs get <id> <marca> [nome]` → `brands/<marca>/assets/unsplash/` + `CREDITS.json`.
+  O `get` dispara o endpoint de download (exigido pelas diretrizes da API). Sempre baixar por ele, nunca pelo site.
+- Crédito não é obrigatório pela licença, mas fica registrado em `CREDITS.json` e no `post.md` (campo de notas).
+- **Limites da licença:** não revender a foto sem alteração; não montar coleção que concorra com o Unsplash;
+  não há autorização de imagem de pessoas nem de marcas: evitar fotos com rosto identificável ou logo de terceiro
+  em peça de venda (pode sugerir endosso), e nunca apresentar pessoa de banco como cliente/paciente real.
+- **VELPORA:** Unsplash só para lifestyle (pets, casa, passeio). Nunca para representar produto vendido.
+- **lelayer3d:** não usar Unsplash para peças; só fotos reais das impressões.
+- **Nexora:** pode usar ambiente de clínica, mas sem sugerir que é a clínica de um cliente nem "antes e depois".
+- Chave: Network secret do ambiente **social-media** para `api.unsplash.com`, header `Authorization`,
+  valor `Client-ID <access key>`; ou variável `UNSPLASH_ACCESS_KEY`. Modo demo da API: 50 requisições/hora.
+- Os scripts Node usam o proxy do ambiente via `scripts/_proxy.mjs` (liga `NODE_USE_ENV_PROXY`).
+
 ## Voz (ElevenLabs)
 
 - `scripts/tts.mjs` lê `brands/<marca>/voice.json` (voice_id, modelo, ajustes) e o `voice.txt` do post.
   Vozes escolhidas (2026-11-26): Nexora `F6z5r8W1ZxTsvUyVlvpG` (pt-BR), VELPORA `zfc8CJQpe8Kqyl0vvCzo` (en-US).
 - A chave da API **nunca** vai para o repositório. No cloud, peça com a ferramenta de credencial
   (host `api.elevenlabs.io`, header `xi-api-key`); localmente, variável `ELEVENLABS_API_KEY`.
-  Ambiente cloud próprio: **social-media** (criado em 2026-11-26). A chave entra em Network secrets desse ambiente.
+  Ambiente cloud próprio: **social-media** (criado em 2026-11-26). A chave entra em Network secrets desse ambiente,
+  com header **`xi-api-key`** e **sem prefixo**. Com header `Authorization` a API recusa (testado em 2026-11-26).
 - Voz realista gerada por IA: no Instagram, marque o rótulo "AI info" quando a política da Meta exigir.
 
 ## Verificação antes de commitar
