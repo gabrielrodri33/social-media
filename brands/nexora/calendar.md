@@ -24,7 +24,7 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 ### Stories (1 por dia)
 | Data | Story |
 |---|---|
-| Seg | Enquete: "Sua agenda tem buraco no meio da semana?" Sim / Às vezes |
+| Seg | Enquete: "Sua agenda tem buraco no meio da semana?" "Sim, toda semana" / "Às vezes" / "Não" |
 | Ter | Repost do carrossel + figurinha de link do WhatsApp ("diagnóstico gratuito") |
 | Qua | Caixa de perguntas: "O que você já ouviu de agência que parecia bom demais?" |
 | Qui | Quiz: "Quem busca no Google ou quem rola o Instagram tem mais intenção de agendar?" |

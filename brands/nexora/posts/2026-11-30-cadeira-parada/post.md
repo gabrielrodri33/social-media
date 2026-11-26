@@ -14,12 +14,12 @@ published_url:
 Abrir a semana com a dor mais concreta do dono de clínica (agenda com buracos) e apresentar o diagnóstico gratuito.
 
 ## Copy da arte
-1. Cadeira parada não paga aluguel.
+1. [eyebrow: AGENDA COM BURACOS?] Cadeira parada não paga aluguel.
 2. Cada horário vago no meio da semana custa aluguel, equipe e equipamento.
 3. Muitas vezes o problema não é o atendimento: é que o paciente não está te encontrando.
 4. Muita gente que procura dentista começa pelo Google e pelo Instagram.
 5. Nosso trabalho é colocar sua clínica na frente de quem já procura o tratamento.
-6. Comece pelo diagnóstico gratuito. (Sem compromisso.) [botão: Chama no WhatsApp]
+6. Comece pelo diagnóstico gratuito. (Sem compromisso.) [botão: Chame no WhatsApp]
 
 ## Legenda
 Cadeira parada não paga aluguel. 🦷
@@ -36,12 +36,12 @@ Quer saber por onde começar? Peça o diagnóstico gratuito do perfil da sua cl�
 ## Roteiro / narração
 Uma cena por linha de `voice.txt` (narração pt-BR, voz em `../../voice.json`).
 
-1. Cadeira parada não paga aluguel.
+1. [eyebrow: AGENDA COM BURACOS?] Cadeira parada não paga aluguel.
 2. Cada horário vago no meio da semana custa aluguel, equipe e equipamento.
 3. Muitas vezes o problema não é o atendimento: é que o paciente não está te encontrando.
 4. Muita gente que procura dentista começa pelo Google e pelo Instagram.
 5. Nosso trabalho é colocar sua clínica na frente de quem já procura o tratamento.
-6. Comece pelo diagnóstico gratuito. Chama no WhatsApp: o link está na bio. (Sem compromisso.) [botão: Chama no WhatsApp]
+6. Comece pelo diagnóstico gratuito. Chame no WhatsApp: o link está na bio. (Sem compromisso.) [botão: Chame no WhatsApp]
 
 Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no app em volume baixo sob a narração.
 
@@ -66,6 +66,10 @@ Resolvido em 2026-11-26: Gabriel confirmou link da bio → WhatsApp; CTA explíc
 - 2026-11-26 · criador · volta 2 aplicada (WordReveal prende palavra de 1 letra à seguinte) · 1
 - 2026-11-26 · revisor-visual · APROVADO (volta 3) · 0
 - 2026-11-26 · revisor-copy · REPROVADO mantido (sem mudança de texto desde a volta 2) · 1 (C1)
+- 2026-11-26 · Gabriel · C1 resolvida: link da bio → WhatsApp (novo ciclo de revisão)
+- 2026-11-26 · criador · CTA "Chama no WhatsApp" + sub "Sem compromisso."; voz falhou (ElevenLabs 402, plano gratuito)
+- 2026-11-26 · revisor-visual · APROVADO (ciclo 2, volta 1) · 0
+- 2026-11-26 · revisor-copy · REPROVADO (ciclo 2, volta 1) · 3 (tratamento "Chama"; eyebrow fora da ficha; enquete calendar × story)
 
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:
