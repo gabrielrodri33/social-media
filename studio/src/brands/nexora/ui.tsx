@@ -58,18 +58,36 @@ export const WordReveal: React.FC<{text: string; highlight?: string; size: numbe
     );
   };
   const gap = size * 0.26;
-  const items: React.ReactNode[] = [];
+  // Bloco que não quebra por dentro (salvo se for mais largo que a linha toda): se não cabe, desce inteiro.
+  const block = (key: string, children: React.ReactNode[]) => (
+    <span key={key} style={{display: 'inline-flex', flexWrap: 'wrap', maxWidth: '100%', columnGap: gap, rowGap: size * 0.06}}>{children}</span>
+  );
+  // Palavra de 1 letra (ignorando pontuação: "é", "o", "a", "e") nunca fica sozinha no fim da linha:
+  // gruda na palavra (ou bloco) seguinte. Encadeia: "e o problema" vira um bloco só.
+  const isShort = (w: string) => w.replace(/[^\p{L}\p{N}]/gu, '').length === 1;
+  const glue = (nodes: {node: React.ReactNode; short: boolean}[], keyBase: string) => {
+    const out: React.ReactNode[] = [];
+    let pending: React.ReactNode[] = [];
+    nodes.forEach((n, k) => {
+      pending.push(n.node);
+      if (n.short && k < nodes.length - 1) return;
+      out.push(pending.length > 1 ? block(`${keyBase}-g${k}`, pending) : pending[0]);
+      pending = [];
+    });
+    return out;
+  };
+  const tokens: {node: React.ReactNode; short: boolean}[] = [];
   for (let i = 0; i < words.length; i++) {
     if (hlStart >= 0 && i === hlStart && hw.length > 1) {
-      // Trecho destacado contíguo vira um bloco único: se não cabe no resto da linha, desce inteiro.
-      // Só quebra por dentro se for mais largo que a linha toda (maxWidth 100%), para não estourar a área.
-      const group = words.slice(hlStart, hlStart + hw.length).map((w, j) => renderWord(w, hlStart + j));
-      items.push(<span key={`hl-${i}`} style={{display: 'inline-flex', flexWrap: 'wrap', maxWidth: '100%', columnGap: gap, rowGap: size * 0.06}}>{group}</span>);
+      // Trecho destacado contíguo vira um bloco único (com as palavras curtas internas também grudadas).
+      const inner = words.slice(hlStart, hlStart + hw.length).map((w, j) => ({node: renderWord(w, hlStart + j), short: isShort(w)}));
+      tokens.push({node: block(`hl-${i}`, glue(inner, `hl-${i}`)), short: false});
       i += hw.length - 1;
     } else {
-      items.push(renderWord(words[i], i));
+      tokens.push({node: renderWord(words[i], i), short: isShort(words[i])});
     }
   }
+  const items = glue(tokens, 'w');
   return (
     <div style={{display: 'flex', flexWrap: 'wrap', columnGap: gap, rowGap: size * 0.06}}>
       {items}

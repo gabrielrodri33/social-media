@@ -52,6 +52,9 @@ Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no a
 - 2026-11-26 · estrategista · manter (CTA divergente do calendar; Cyber Monday e 13º no dia) · 2 ajustes
 - 2026-11-26 · revisor-copy · REPROVADO · 3
 - 2026-11-26 · revisor-visual · REPROVADO · 4
+- 2026-11-26 · criador · volta 1 aplicada (C2, C3, V1–V4) · 6
+- 2026-11-26 · revisor-copy · REPROVADO (volta 2) · 1 (C1: destino do link da bio, depende do Gabriel)
+- 2026-11-26 · revisor-visual · REPROVADO (volta 2) · 2 (palavra de 1 letra no fim da linha, cenas 3 e 5)
 
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:
