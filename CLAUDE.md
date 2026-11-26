@@ -5,11 +5,14 @@ os criativos são produzidos (Remotion para imagem e vídeo, ElevenLabs para voz
 
 | Marca | Pasta | Idioma público | Status |
 |---|---|---|---|
-| **Nexora** (marketing para clínicas odontológicas, SP) | `brands/nexora/` | pt-BR | marca definida; logo no `brand-kit/` |
-| **VELPORA** (pet lifestyle & care, e-commerce EUA) | `brands/velpora/` | **en-US, sempre** | briefing completo; **sem logo, sem produtos aprovados** |
-| **lelayer3d** (impressão 3D, perfil do cunhado do Gabriel) | `brands/lelayer3d/` | pt-BR (a confirmar) | identidade ainda não definida |
+| **Nexora** [@mkt.nexora](https://www.instagram.com/mkt.nexora/) (marketing para clínicas odontológicas, SP) | `brands/nexora/` | pt-BR | marca definida; logo no `brand-kit/` |
+| **VELPORA** [@velporapet](https://www.instagram.com/velporapet/) (pet lifestyle & care, e-commerce EUA) | `brands/velpora/` | **en-US, sempre** | briefing completo; logo só em imagem de referência (sem vetor); sem produtos aprovados |
+| **lelayer3d** [@le.layer3d](https://www.instagram.com/le.layer3d/) (impressão 3D, perfil do cunhado do Gabriel) | `brands/lelayer3d/` | pt-BR | logo recebido (150 px); vende peças com preço em R$ |
 
 Conversa com o Gabriel: **português**. Copy pública da VELPORA: **inglês americano**.
+
+**Arquivo final dos posts: Google Drive, pasta "Social Media"** (IDs e convenção em [`DRIVE.md`](DRIVE.md)).
+Todo render entregue sobe para `Social Media/<Marca>/Posts/<AAAA-MM-DD-slug>/`.
 
 ## Antes de qualquer tarefa
 
@@ -47,6 +50,7 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 3. Escreva `props.json`, renderize: `scripts/render-post.sh brands/<marca>/posts/<post>`.
 4. **Confira os frames** (abra o PNG; em vídeo, extraia frames do início, meio e fim) antes de entregar.
 5. Narração: `node scripts/tts.mjs <marca> <post-dir>` gera `voice.mp3` a partir de `voice.txt`.
+6. Suba o render para o Drive (ver `DRIVE.md`), grave `drive_folder:` no `post.md` e atualize `calendar.md`.
 
 ## Remotion
 
@@ -71,7 +75,8 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 
 **VELPORA**
 - Toda copy pública em inglês americano (artes, legendas, Stories, narração).
-- Sem logo oficial ainda: **não invente** logo nem wordmark estilizado. Peça o arquivo.
+- Logo: só existe a imagem de referência `brands/velpora/brand-kit/logo-e-destaques-referencia.webp` (raster).
+  Não redesenhe nem vetorize "de olho". Não use o ® até haver registro concedido (ver BRAND.md).
 - Não inventar reviews/depoimentos (regra da marca e regra da FTC dos EUA), não anunciar descontos inativos,
   prazos de entrega não confirmados, produtos não aprovados ou alegações de saúde sem comprovação.
 - Não usar imagem que não corresponda ao produto vendido.

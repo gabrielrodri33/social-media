@@ -6,6 +6,7 @@ format: feed              # feed | carousel | reel | story
 pillar: brand-awareness   # pilar de conteúdo da marca (ver BRAND.md)
 composition: Velpora-QuoteCard
 frame: 59                 # frame usado no still (feed). Em vídeo, ignore.
+drive_folder:             # ID da subpasta em Social Media/<Marca>/Posts (ver DRIVE.md)
 published_url:            # preencher ao publicar
 ---
 

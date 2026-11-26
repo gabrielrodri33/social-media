@@ -27,7 +27,18 @@ Produtos ainda **não definidos**: dependem de pesquisa de fornecedor. Não most
 - Títulos: **Playfair Display**. Texto/CTA: **Montserrat**. (No código: `studio/src/brands/velpora/brand.ts`.)
 - Minimalista, fundo claro, pouco texto, muito respiro. Sem cores vibrantes, sem excesso de emojis, sem cara de loja genérica.
 - Formatos: feed 1080×1440, Stories/Reels 1080×1920, sempre com margem de segurança.
-- Logo discreto e consistente. **Logo oficial: AINDA NÃO RECEBIDO** (ver STATUS.md). Não simular.
+- Logo discreto e consistente.
+
+## Logo e destaques (recebidos em 2026-11-26)
+Referência: `brand-kit/logo-e-destaques-referencia.webp` (1536×1024, raster, logo + 8 capas de destaque).
+- Desenho: pata + onda, "VELPORA" em serifada de caixa alta (estilo romano, **não é Playfair**), linha
+  "PET LIFESTYLE & CARE", círculo verde escuro com aro dourado e ondas verdes na base.
+- Cores medidas no arquivo: verde ~`#0E3019` e dourado ~`#BAAA79`. **Diferem da paleta oficial**
+  (forest `#1F3B2E`, caramel `#C49A6C`). Decisão pendente: qual manda. Até lá, artes usam a paleta oficial.
+- **Não é arquivo de produção**: é raster pequeno, sem fundo transparente. Precisa do vetor (SVG/AI/PDF).
+- O símbolo **®** só pode ser usado com registro federal concedido no USPTO; antes disso, usar ™ ou nada.
+- Capas de destaque: OUR BRAND (pata), CARE (escova), COMFORT (cama), EVERYDAY (coleira), SHIPPING (caixa),
+  REVIEWS (balão com estrelas), FAQ (balões com ?), COMMUNITY (coração com pata). Ícones dourados em linha.
 
 ## Tom de voz
 Premium, acolhedor, prático, confiável, moderno. Exemplos aprovados no briefing:
@@ -39,7 +50,7 @@ Premium, acolhedor, prático, confiável, moderno. Exemplos aprovados no briefin
 1. Product Showcase · 2. Educational · 3. Pet Lifestyle · 4. Brand Awareness · 5. Sales & Conversion
 
 ## Perfil
-- Nome: VELPORA | Pet Lifestyle & Care · Usuário: @velpora.pet (**disponibilidade não confirmada**)
+- Nome: VELPORA | Pet Lifestyle & Care · Usuário: **@velporapet** (https://www.instagram.com/velporapet/)
 - Bio: Thoughtful essentials for happier pets. / Care, comfort & everyday living. / Discover VELPORA ↓
 - Destaques: OUR BRAND · CARE · COMFORT · EVERYDAY · SHIPPING · REVIEWS · FAQ · COMMUNITY
 

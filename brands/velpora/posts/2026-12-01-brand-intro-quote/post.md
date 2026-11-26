@@ -6,6 +6,7 @@ format: feed
 pillar: brand-awareness
 composition: Velpora-QuoteCard
 frame: 59
+drive_folder: 1NHQulve8zXZQwkZbsD_U9FEyH3qJ79sa
 published_url:
 ---
 
