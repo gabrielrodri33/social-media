@@ -6,7 +6,7 @@ format: reel
 pillar: posicionamento
 composition: Nexora-Reel
 frame: 40
-drive_folder:
+drive_folder: 1qzOBJS3luTGgJUNe70PkrLe5tzOO0T_0
 published_url:
 ---
 

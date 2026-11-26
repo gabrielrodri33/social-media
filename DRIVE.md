@@ -23,3 +23,10 @@ Pasta raiz: [Social Media](https://drive.google.com/drive/folders/1wgUgFNYkL6zLg
 | Post | ID |
 |---|---|
 | velpora/2026-12-01-brand-intro-quote | `1NHQulve8zXZQwkZbsD_U9FEyH3qJ79sa` |
+| nexora/2026-11-30-cadeira-parada | `1tOO9qeh5VWey3Ew-eqxYMjvzAPALHqyn` |
+| nexora/2026-12-01-google-maps | `1BQSE6YoRMGzHQ-YeFn6oHQ8WV_mrEju5` |
+| nexora/2026-12-02-garantia-pacientes | `1qzOBJS3luTGgJUNe70PkrLe5tzOO0T_0` |
+| nexora/2026-12-03-impulsionar-vs-google | `1lJAVAJcm7dSj07anA3baDAxT28Oi5vGN` |
+| nexora/2026-12-04-como-funciona | `1x18qErPM36dIiclm2t6ALnzrec0klTrY` |
+| nexora/2026-12-05-contas-no-nome | `1W2FHPcNbVW9rlDqhfbgVkP6jDW85LPYa` |
+| nexora/2026-12-06-agenda-janeiro | `1eteYz7IU_n_hibds4aCbf5ZoMuu1VlLb` |

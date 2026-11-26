@@ -6,7 +6,7 @@ format: reel
 pillar: metodo
 composition: Nexora-Reel
 frame: 40
-drive_folder:
+drive_folder: 1x18qErPM36dIiclm2t6ALnzrec0klTrY
 published_url:
 ---
 

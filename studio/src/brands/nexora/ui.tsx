@@ -36,15 +36,27 @@ export const WordReveal: React.FC<{text: string; highlight?: string; size: numbe
 }) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const hlWords = new Set((highlight ?? '').split(/\s+/).filter(Boolean));
   const words = text.split(/\s+/);
+  // Destaca só o trecho contíguo igual a `highlight` (primeira ocorrência), não toda palavra repetida.
+  const hw = (highlight ?? '').split(/\s+/).filter(Boolean);
+  let hlStart = -1;
+  for (let i = 0; hw.length && i <= words.length - hw.length; i++) {
+    if (hw.every((w, j) => words[i + j] === w)) { hlStart = i; break; }
+  }
+  // Sem trecho contíguo (ex.: "Google Instagram."), cai para palavras soltas, cada uma só uma vez.
+  const loose = new Set(hlStart < 0 ? hw : []);
+  const isHl = (i: number, w: string) => {
+    if (hlStart >= 0) return i >= hlStart && i < hlStart + hw.length;
+    if (loose.has(w)) { loose.delete(w); return true; }
+    return false;
+  };
   return (
     <div style={{display: 'flex', flexWrap: 'wrap', columnGap: size * 0.26, rowGap: size * 0.06}}>
       {words.map((w, i) => {
         const s = spring({frame: f - start - i * 3, fps, config: {damping: 16}});
         return (
           <span key={i} style={{fontFamily: DISPLAY, fontWeight: weight, fontSize: size, lineHeight: 1.1, letterSpacing: -1.2,
-            color: hlWords.has(w) ? C.cyan : color, opacity: s, transform: `translateY(${(1 - s) * 34}px)`}}>{w}</span>
+            color: isHl(i, w) ? C.cyan : color, opacity: s, transform: `translateY(${(1 - s) * 34}px)`}}>{w}</span>
         );
       })}
     </div>
