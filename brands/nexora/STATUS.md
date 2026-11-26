@@ -32,6 +32,9 @@
       Depois: `node scripts/tts.mjs nexora <dia>` + render de novo nos 4 reels.
 
 ## Decisões
+- 2026-11-26: modelos dos revisores validados contra a volta 1 do dia 30/11: revisor-copy em medium deixou passar a
+  promessa "coloca sua clínica" → fica **opus/high**; revisor-visual em sonnet só pegou a pílula de 28 px depois do item
+  "medir TODA linha de texto" no checklist → fica **sonnet/medium** com esse item.
 - 2026-11-26: **o link da bio do @mkt.nexora leva ao WhatsApp** (Gabriel). Resolve a C1 do bloqueio de 30/11:
   CTA "Link na bio" + ícone de WhatsApp é coerente; o revisor-copy pediu deixar o WhatsApp explícito na copy.
 - 2026-11-26: chave do ElevenLabs corrigida pelo Gabriel no ambiente social-media (a testar na próxima narração).
