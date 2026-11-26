@@ -15,11 +15,12 @@
 (Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
-- [ ] **30/11 em BLOQUEIO DE REVISÃO** (teste da equipe de agentes, 2026-11-26): visual APROVADO; copy REPROVADO por
-      C1 = destino do "Link na bio" do @mkt.nexora não registrado (botão tem ícone de WhatsApp). **Gabriel decide**:
-      bio → WhatsApp, bio → LP, ou CTA direto "Chama no WhatsApp". A decisão vale para os 7 dias (todos usam "Link na bio").
-      Pendentes também (guardião): tirar "gratuito" repetido na cena 6; alinhar opções da enquete no calendar × story.md.
-- [ ] **Drive fora do fluxo:** 30/11 e 01/12 subiram ao Drive (RASCUNHO-) ANTES da aprovação dos revisores. Manter como
+- [x] 30/11 (cadeira-parada): bloqueio resolvido (link da bio → WhatsApp). Copy e visual **APROVADOS** em 2026-11-26;
+      no Drive como RASCUNHO- (reel sem narração). Aguardando aprovação do Gabriel.
+- [ ] Aplicar nos outros dias da semana o que foi corrigido em 30/11 (achado do revisor-copy): 02/12 legenda com
+      "Chama no WhatsApp" → "Chame"; 04/12 e 06/12 botão "Link na bio" → WhatsApp explícito ("Chame no WhatsApp").
+- [ ] Narração: conta ElevenLabs gratuita (402). Plano pago ou outra voz.
+- [ ] **Drive fora do fluxo:** 01/12 subiu (30/11 já substituído pela versão aprovada) ao Drive (RASCUNHO-) ANTES da aprovação dos revisores. Manter como
       rascunho e substituir depois de aprovados. Daqui em diante: só sobe com APROVADO dos dois revisores.
 - [ ] **Re-renderizar os feeds da semana 1 no padrão 1080×1350** (os carrosséis de 01/12 e 03/12 e o card de 05/12
       foram gerados em 1080×1440 antes do padrão; os templates já estão corrigidos). Reels e stories não mudam.

@@ -70,6 +70,10 @@ Resolvido em 2026-11-26: Gabriel confirmou link da bio → WhatsApp; CTA explíc
 - 2026-11-26 · criador · CTA "Chama no WhatsApp" + sub "Sem compromisso."; voz falhou (ElevenLabs 402, plano gratuito)
 - 2026-11-26 · revisor-visual · APROVADO (ciclo 2, volta 1) · 0
 - 2026-11-26 · revisor-copy · REPROVADO (ciclo 2, volta 1) · 3 (tratamento "Chama"; eyebrow fora da ficha; enquete calendar × story)
+- 2026-11-26 · criador · 3 correções aplicadas ("Chame no WhatsApp", eyebrow na ficha, enquete no calendar)
+- 2026-11-26 · revisor-copy · APROVADO (ciclo 2, volta 2) · 0
+- 2026-11-26 · revisor-visual · APROVADO (ciclo 2, volta 2) · 0
+- 2026-11-26 · sessão principal · Drive: rascunhos antigos na lixeira; novos RASCUNHO- (mp4, capa, story, LEGENDA.txt)
 
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:

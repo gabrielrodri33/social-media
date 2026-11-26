@@ -8,3 +8,10 @@
   2. Eyebrow "AGENDA COM BURACOS?" ausente da "Copy da arte".
   3. Enquete: calendar "Sim / Às vezes" × story.md 3 opções → alinhar o calendar às 3 opções.
   Sugestões: "link na bio" só na voz (sem som não aparece); "te encontrando" × "sua clínica"; ordem da frase na legenda.
+
+## Volta 2
+- revisor-copy: **APROVADO** (0). Sugestões: ordem da frase na legenda ("Peça pelo WhatsApp o diagnóstico…");
+  "link na bio" só na voz (reel sem narração); "te encontrando" × "sua clínica".
+  Observou: 02/12 tem "Chama no WhatsApp" na legenda; 04/12 e 06/12 com botão "Link na bio" sem WhatsApp.
+- revisor-visual: **APROVADO** (0). Sugestões: cena 5 a 3 px do limite direito; pílula no mínimo exato; logo a 10 px do recorte 3:4.
+- **Dia liberado. Subido ao Drive como RASCUNHO- em 2026-11-26.**

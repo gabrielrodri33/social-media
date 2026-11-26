@@ -35,7 +35,7 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 ## Publicados / produzidos
 | Data | Formato | Pilar | Post | Status |
 |---|---|---|---|---|
-| 2026-11-30 | reel + story | dor | [cadeira-parada](posts/2026-11-30-cadeira-parada/post.md) | draft |
+| 2026-11-30 | reel + story | dor | [cadeira-parada](posts/2026-11-30-cadeira-parada/post.md) | draft (revisado, no Drive) |
 | 2026-12-01 | carrossel + story | educação | [google-maps](posts/2026-12-01-google-maps/post.md) | draft |
 | 2026-12-02 | reel + story | posicionamento | [garantia-pacientes](posts/2026-12-02-garantia-pacientes/post.md) | draft |
 | 2026-12-03 | carrossel + story | educação | [impulsionar-vs-google](posts/2026-12-03-impulsionar-vs-google/post.md) | draft |
