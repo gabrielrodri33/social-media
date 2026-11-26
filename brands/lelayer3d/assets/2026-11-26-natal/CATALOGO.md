@@ -6,7 +6,8 @@ Cenário de todas: mesa de madeira na varanda, à noite, com cortina de luzinhas
 
 ## O que as fotos confirmam
 - As figuras são **impressões 3D reais com textura de tricô/crochê** (não é arte de IA). Pintura/filamentos coloridos.
-- O gorro do Papai Noel **é removível** (fotos `colecao-noel-sem-gorro-*`).
+- O gorro do Papai Noel **NÃO é removível** (Gabriel, 2026-11-26): nas fotos `colecao-noel-sem-gorro-*` a peça ainda
+  estava sendo montada (processo de montagem/acabamento). Nunca anunciar gorro removível.
 - Bandejas ovais com borda canelada, em **rosa (salmão)** e **marrom**.
 - Embalagem: conjunto dentro de **saquinho plástico transparente sobre a bandeja**.
 - Peças vistas: rena, Papai Noel, árvore (estrela dourada), urso polar com gorro, boneco de neve, pinguim com gorro,
@@ -25,7 +26,7 @@ Cenário de todas: mesa de madeira na varanda, à noite, com cortina de luzinhas
 | Conjunto Noel + árvore + urso + boneco (bandeja marrom) | conjunto-noel-arvore-urso-boneco-bandeja-marrom-01..04 | variação de conjunto |
 | 2 renas + Noel + pinguim (bandeja rosa) | conjunto-renas-noel-pinguim-bandeja-rosa-01..04 | variação de conjunto |
 | Coleção completa + embalagens | colecao-embalagens-*, colecao-embalagens-vista-cima-* | "monte o seu", volume, pronto para presente |
-| Coleção com Noel sem gorro | colecao-noel-sem-gorro-01..03 | detalhe/curiosidade (gorro encaixa) |
+| Coleção com Noel ainda em montagem (sem gorro) | colecao-noel-sem-gorro-01..03 | bastidor do processo de montagem (não é recurso do produto) |
 
 ## Vídeos (15) — `videos/` (fora do git), vertical, 6–19 s
 | Arquivo | Conteúdo |
