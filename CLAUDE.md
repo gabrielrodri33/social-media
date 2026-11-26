@@ -6,13 +6,17 @@ os criativos são produzidos (Remotion para imagem e vídeo, ElevenLabs para voz
 | Marca | Pasta | Idioma público | Status |
 |---|---|---|---|
 | **Nexora** [@mkt.nexora](https://www.instagram.com/mkt.nexora/) (marketing para clínicas odontológicas, SP) | `brands/nexora/` | pt-BR | marca definida; logo no `brand-kit/` |
-| **VELPORA** [@velporapet](https://www.instagram.com/velporapet/) (pet lifestyle & care, e-commerce EUA) | `brands/velpora/` | **en-US, sempre** | briefing completo; logo só em imagem de referência (sem vetor); sem produtos aprovados |
-| **lelayer3d** [@le.layer3d](https://www.instagram.com/le.layer3d/) (impressão 3D, perfil do cunhado do Gabriel) | `brands/lelayer3d/` | pt-BR | logo recebido (150 px); vende peças com preço em R$ |
+| **VELPORA** [@velporapet](https://www.instagram.com/velporapet/) (→ @velpora.usa) (pet lifestyle & care, e-commerce EUA) | `brands/velpora/` | **en-US, sempre** | briefing completo; logo oficial só em raster; loja e produtos chegando |
+| **lelayer3d** [@le.layer3d](https://www.instagram.com/le.layer3d/) (impressão 3D, perfil do cunhado do Gabriel) | `brands/lelayer3d/` | pt-BR | sob encomenda (DM/WhatsApp); logo em 150 px; fotos chegando pelo Drive |
 
 Conversa com o Gabriel: **português**. Copy pública da VELPORA: **inglês americano**.
 
 **Arquivo final dos posts: Google Drive, pasta "Social Media"** (IDs e convenção em [`DRIVE.md`](DRIVE.md)).
 Todo render entregue sobe para `Social Media/<Marca>/Posts/<AAAA-MM-DD-slug>/`.
+
+**Frequência (2026-11-26):** Nexora e VELPORA: 2 feed (criativo/carrossel) + 1 reel + 2 stories **por dia** cada.
+lelayer3d: 1 feed (alternando reel e criativo/foto/carrossel) + 1 story por dia.
+Isso só é viável com templates reaproveitáveis e produção em lote semanal: priorize criar templates.
 
 ## Antes de qualquer tarefa
 

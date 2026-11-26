@@ -1,7 +1,13 @@
 # lelayer3d: regras da marca
 
 Perfil de impressão 3D do cunhado do Gabriel: **@le.layer3d** (https://www.instagram.com/le.layer3d/).
-Vende peças impressas com preço em R$ (ex.: conjunto de Natal). Idioma: **pt-BR**.
+Idioma: **pt-BR**.
+
+## Negócio
+- **Venda sob encomenda.** Pedidos por **DM e WhatsApp** (por enquanto). CTA padrão: "chama na DM" / WhatsApp.
+- **Público:** colecionadores, presentes personalizados, cosplay e decoração.
+- **Tom:** alterna entre técnico/maker (processo, camadas, material), divertido e premium, conforme o post.
+  O que não varia é a identidade visual (preto + azul do logo).
 
 ## Logo (recebido em 2026-11-26)
 `brand-kit/logo-perfil-150px.png`: só a foto de perfil, **150×150 px**. Não serve para criativo

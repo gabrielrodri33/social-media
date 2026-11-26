@@ -31,6 +31,7 @@ Produtos ainda **não definidos**: dependem de pesquisa de fornecedor. Não most
 
 ## Logo e destaques (recebidos em 2026-11-26)
 Referência: `brand-kit/logo-e-destaques-referencia.webp` (1536×1024, raster, logo + 8 capas de destaque).
+O Gabriel considera este o **logo oficial** (2026-11-26). Falta só o arquivo de produção.
 - Desenho: pata + onda, "VELPORA" em serifada de caixa alta (estilo romano, **não é Playfair**), linha
   "PET LIFESTYLE & CARE", círculo verde escuro com aro dourado e ondas verdes na base.
 - Cores medidas no arquivo: verde ~`#0E3019` e dourado ~`#BAAA79`. **Diferem da paleta oficial**
@@ -50,7 +51,8 @@ Premium, acolhedor, prático, confiável, moderno. Exemplos aprovados no briefin
 1. Product Showcase · 2. Educational · 3. Pet Lifestyle · 4. Brand Awareness · 5. Sales & Conversion
 
 ## Perfil
-- Nome: VELPORA | Pet Lifestyle & Care · Usuário: **@velporapet** (https://www.instagram.com/velporapet/)
+- Nome: VELPORA | Pet Lifestyle & Care · Usuário: hoje **@velporapet**, vai mudar para **@velpora.usa**
+  (2026-11-26). Não escrever o @ dentro das artes até a troca ser feita.
 - Bio: Thoughtful essentials for happier pets. / Care, comfort & everyday living. / Discover VELPORA ↓
 - Destaques: OUR BRAND · CARE · COMFORT · EVERYDAY · SHIPPING · REVIEWS · FAQ · COMMUNITY
 

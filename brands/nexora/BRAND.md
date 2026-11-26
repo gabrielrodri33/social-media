@@ -1,13 +1,14 @@
 # Nexora: regras da marca (resumo operacional)
 
 **O quê:** marketing para clínicas odontológicas em São Paulo (Google Ads, landing page, social media, Google Meu Negócio).
+**Perfil:** @mkt.nexora (https://www.instagram.com/mkt.nexora/).
 **Público do Instagram:** donos e donas de clínica odontológica. **Idioma:** pt-BR.
 **Fontes da verdade (repo `lp-nexora`):** copy em `content/site.ts`, regras em `CLAUDE.md`, WhatsApp em `lib/config.ts`.
 
 ## Posicionamento
 "**Sem promessa milagrosa**." Foco 100% em odontologia · contas no nome da clínica · relatório mensal claro.
 - Nunca garantir número de pacientes, faturamento ou resultado. A frase "maior faturamento" do teste técnico
-  antigo (`lp-nexora/criativos/src/NexoraOdonto.tsx`) **contradiz** isso: não reaproveitar.
+  antigo (`NexoraOdonto`, removido do lp-nexora; está no histórico git) **contradiz** isso: não reaproveitar.
 - Sem antes e depois. Respeitar as normas de publicidade do CFO.
 - CTA padrão: WhatsApp.
 
