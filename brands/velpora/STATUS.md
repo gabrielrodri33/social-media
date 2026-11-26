@@ -8,7 +8,8 @@ _Atualize ao fim de cada sessão. Decisões sempre com data._
 - Primeiro template: `Velpora-QuoteCard` (feed 1080×1440). Primeiro rascunho: `posts/2026-12-01-brand-intro-quote/`.
 
 ## Frequência (decidida em 2026-11-26)
-Por dia: 2 posts de feed (criativo/carrossel) + 1 reel + 2 stories (igual à Nexora). Substitui a tabela do briefing §9.
+1 post de feed por dia (alternando reel e criativo/foto/carrossel) + 1 story por dia. Substitui a tabela do briefing §9.
+(Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
 1. **Arquivo de produção do logo oficial.** O desenho está aprovado (imagem de referência), mas é raster

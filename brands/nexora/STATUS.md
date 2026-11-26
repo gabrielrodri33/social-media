@@ -8,7 +8,8 @@
 - Template: `Nexora-StatementCard` (feed 4:5), validado com o logo oficial. Ainda sem post aprovado.
 
 ## Frequência (decidida em 2026-11-26)
-Por dia: 2 posts de feed (criativo/carrossel) + 1 reel + 2 stories.
+1 post de feed por dia (alternando reel e criativo/foto/carrossel) + 1 story por dia.
+(Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
 - [ ] Pilares de conteúdo da Nexora (não há briefing formal como o da VELPORA).

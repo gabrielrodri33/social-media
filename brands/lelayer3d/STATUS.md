@@ -6,7 +6,7 @@
 - Público, tom, idioma e forma de venda definidos (BRAND.md).
 
 ## Frequência (decidida em 2026-11-26)
-1 post por dia no feed (alternando reels e criativo/foto/carrossel) + 1 story por dia.
+1 post de feed por dia (alternando reel e criativo/foto/carrossel) + 1 story por dia.
 
 ## Pendências
 - [ ] **Fotos das impressões**: o Gabriel vai subir no Drive, em `Social Media/lelayer3d/Fotos recebidas`

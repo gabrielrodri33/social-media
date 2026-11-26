@@ -14,9 +14,8 @@ Conversa com o Gabriel: **português**. Copy pública da VELPORA: **inglês amer
 **Arquivo final dos posts: Google Drive, pasta "Social Media"** (IDs e convenção em [`DRIVE.md`](DRIVE.md)).
 Todo render entregue sobe para `Social Media/<Marca>/Posts/<AAAA-MM-DD-slug>/`.
 
-**Frequência (2026-11-26):** Nexora e VELPORA: 2 feed (criativo/carrossel) + 1 reel + 2 stories **por dia** cada.
-lelayer3d: 1 feed (alternando reel e criativo/foto/carrossel) + 1 story por dia.
-Isso só é viável com templates reaproveitáveis e produção em lote semanal: priorize criar templates.
+**Frequência (revisada em 2026-11-26), igual para as 3 marcas:** 1 post de feed por dia (alternando reel e criativo/foto/carrossel) + 1 story por dia.
+São 6 peças por dia no total (~42/semana). Produza em lote semanal a partir de templates reaproveitáveis.
 
 ## Antes de qualquer tarefa
 
