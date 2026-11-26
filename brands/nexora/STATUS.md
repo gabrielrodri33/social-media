@@ -32,5 +32,10 @@
       Depois: `node scripts/tts.mjs nexora <dia>` + render de novo nos 4 reels.
 
 ## Decisões
+- 2026-11-26: **o link da bio do @mkt.nexora leva ao WhatsApp** (Gabriel). Resolve a C1 do bloqueio de 30/11:
+  CTA "Link na bio" + ícone de WhatsApp é coerente; o revisor-copy pediu deixar o WhatsApp explícito na copy.
+- 2026-11-26: chave do ElevenLabs corrigida pelo Gabriel no ambiente social-media (a testar na próxima narração).
+- 2026-11-26: revisão enxuta (custo): revisor-visual roda quando um template muda + amostra semanal; copy de toda peça
+  passa por check-post + revisor-copy; vários dias por rodada de revisor.
 - 2026-11-26: criativos da Nexora produzidos aqui, no estúdio único.
 - 2026-11-26: narração dos reels em pt-BR via ElevenLabs.
