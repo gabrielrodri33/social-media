@@ -15,11 +15,13 @@
 (Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
+- [ ] **Gabriel decide o uso do criativo estático de 30/11** (revisor-copy): substitui o reel no feed, vai para outro dia
+      (com legenda própria) ou é peça de anúncio/story. Regra atual: 1 feed por dia.
 - [ ] **30/11 refeito em 2026-11-26** (Gabriel achou o reel fraco): reel com 6 fotos Unsplash (sem rosto), véu navy, narração e
       trilha; + criativo estático 1080×1350 (`Nexora-PhotoCard`, arquivo `criativo.md`). Aguardando o Gabriel aprovar o
       visual ANTES de passar pelos revisores (decisão: revisão só depois do ok visual do Gabriel).
-- [ ] **Licença ElevenLabs:** voz (Brian, premade) e trilha (sound-generation) gerados no plano GRATUITO, que não tem
-      licença comercial. Para publicar: plano pago (libera também a voz Samuel, a preferida). Amostras de voz: Brian, Eric, Daniel.
+- [ ] **Licença ElevenLabs:** voz (Eric, premade, escolhida pelo Gabriel) e trilha (sound-generation) gerados no plano GRATUITO, que não tem
+      licença comercial. Para publicar: plano pago (libera também a voz Samuel, a preferida). Amostras em assets/audio/amostras/ (Brian, Eric, Daniel).
 - [x] 30/11 (cadeira-parada): bloqueio resolvido (link da bio → WhatsApp). Copy e visual **APROVADOS** em 2026-11-26;
       no Drive como RASCUNHO- (reel sem narração). Aguardando aprovação do Gabriel.
 - [ ] Aplicar nos outros dias da semana o que foi corrigido em 30/11 (achado do revisor-copy): 02/12 legenda com

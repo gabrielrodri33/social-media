@@ -46,6 +46,9 @@ Uma cena por linha de `voice.txt` (narração pt-BR, voz em `../../voice.json`).
 Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no app em volume baixo sob a narração.
 
 ## Notas de aprovação
+- **ÁUDIO SEM LICENÇA COMERCIAL:** voice.mp3 (voz Eric, premade) e trilha-01.mp3 (sound-generation) foram gerados no plano
+  GRATUITO da ElevenLabs. **Não publicar este MP4.** Antes: plano pago + novo `tts.mjs` e trilha + render. Na publicação,
+  marcar o rótulo "AI info" (voz gerada por IA).
 - 2026-11-26: produzido. Aguardando aprovação do Gabriel.
 
 ## Bloqueio de revisão
@@ -78,6 +81,9 @@ Resolvido em 2026-11-26: Gabriel confirmou link da bio → WhatsApp; CTA explíc
 - 2026-11-26 · revisor-visual · REPROVADO (fotos, volta 1) · 4 (UI do Google Maps na cena 4; LG/câmera/caixas nas cenas 2 e 6; logo sobre área clara; contraste)
 - 2026-11-26 · revisor-copy · não concluiu (limite de uso da conta)
 - 2026-11-26 · sessão principal · fotos trocadas nas cenas 2, 4 e 6; véu mais escuro no topo e na faixa do texto
+- 2026-11-26 · sessão principal · voz gerada com Eric (premade, plano gratuito) e trilha; a linha "voz falhou (402)" acima é anterior
+- 2026-11-26 · revisor-visual · REPROVADO (fotos, volta 2) · 1 (gravação de fabricante no espelho da cena 6) → corrigido com enquadramento (focus 0% 65%), conferido ampliado
+- 2026-11-26 · revisor-copy · REPROVADO (fotos) · 2 (licença do áudio não registrada → registrada; uso do criativo indefinido → decisão do Gabriel)
 
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:
