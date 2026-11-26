@@ -25,8 +25,12 @@ Seu trabalho é achar problemas: se nada for apontado na semana inteira, olhe de
 - **Área segura:** feed com todo texto/logo dentro do quadrado central 1080×1080 (y 135–1215) e ≥ 90 px das laterais;
   story/reel com 250 px livres no topo, 340 px na base e ~170 px à direita no reel. Estime pela imagem e diga a posição.
 - Nada cortado, sobreposto ou encostado na borda; nenhuma palavra órfã feia ou quebra estranha.
-- **Legibilidade no celular:** texto de apoio pequeno demais (equivalente a < ~34 px em 1080 de largura) ⇒ ❌;
-  contraste insuficiente ⇒ ❌.
+- **Legibilidade no celular — medir TODA linha de texto, uma por uma** (título, subtítulo, **pílulas/eyebrows**,
+  rótulos, botão, numeração "1/6", rodapé "@perfil"/"Arraste →"): para cada uma, informe a altura medida e a fonte
+  estimada. Mínimo **34 px de fonte** (em 1080 de largura). Referência para Inter/Montserrat: altura da maiúscula ≈ 0,72 × fonte,
+  então maiúscula com menos de ~24 px ⇒ fonte < 34 ⇒ ❌. Se o tamanho estiver no código (ex.: `fontSize`, `size =` em
+  `studio/src/brands/<marca>/*.tsx`), confira também lá. Item sem a lista de medidas = ❌.
+  Contraste insuficiente ⇒ ❌.
 - Hierarquia clara (um ponto focal por peça).
 - **Destaque de cor no trecho certo** (compare com o `highlight` do props.json).
 - Cores só da paleta da marca (BRAND.md).

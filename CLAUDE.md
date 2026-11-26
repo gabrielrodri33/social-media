@@ -78,6 +78,8 @@ Modelo e esforço ficam no frontmatter de cada agente (`model:` e `effort:`; val
 Definidos pelo Gabriel em 2026-11-26.
 
 ### Fluxo
+Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <dia>`** (`.claude/commands/produzir-dia.md`).
+
 1. `estrategista` → plano no `calendar.md` → **Gabriel aprova o plano**.
 2. Para cada dia: `criador` produz → `node scripts/check-post.mjs <dia>` → `revisor-copy` e `revisor-visual` **em paralelo**.
 3. Qualquer REPROVADO → volta ao `criador` só com as CORREÇÕES OBRIGATÓRIAS. **Máximo 2 voltas.** Na 3ª reprovação,
