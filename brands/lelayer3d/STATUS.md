@@ -23,7 +23,7 @@
 - [ ] Número de WhatsApp para CTA.
 
 ## Decisões
-- 2026-11-26: **preços confirmados pelo Gabriel = os do 1º post**: conjunto completo (rena, árvore, Noel + bandeja) R$ 69,99;
+- 2026-11-26: **preços confirmados pelo Gabriel = os do 1º post**: conjunto completo (arte do 1º post: rena, Papai Noel, boneco de neve, árvore + bandeja) R$ 69,99;
   bandeja R$ 25,00; cada figura R$ 14,99 (Papai Noel, boneco de neve, rena, árvore, urso, biscoito, pinguim).
 - 2026-11-26: posts arquivados no Drive, `Social Media/lelayer3d/Posts/`; fotos brutas em `Fotos recebidas/`.
 - 2026-11-26: tom varia por post (maker/divertido/premium), identidade visual fixa.
