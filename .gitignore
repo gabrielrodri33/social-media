@@ -4,3 +4,4 @@ brands/*/posts/*/render/
 .env*
 .DS_Store
 studio/public/voice/
+brands/*/assets/**/videos/

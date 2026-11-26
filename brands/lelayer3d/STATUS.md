@@ -8,14 +8,17 @@
 ## Frequência (decidida em 2026-11-26)
 1 post de feed por dia (alternando reel e criativo/foto/carrossel) + 1 story por dia.
 
+## Fotos recebidas (2026-11-26)
+- 38 fotos + 15 vídeos do Natal em `assets/2026-11-26-natal/` (catálogo em `CATALOGO.md`; vídeos só no Drive, fora do git).
+- **Confirmado:** as figuras são impressões 3D reais com textura de tricô (a arte do 1º post representava peças reais).
+  Gorro do Noel removível; bandejas rosa e marrom; embalagem em saquinho transparente sobre a bandeja.
+- Peça nova vista: **biscoito de gengibre** (já estava no catálogo de preços).
+
 ## Pendências
 - [ ] Gabriel aprovar pilares e plano da semana 1 (30/11 a 06/12) em `calendar.md`.
 - [ ] Prazo-limite de encomenda para entregar antes do Natal.
 - [ ] Vídeos: timelapse da impressão e macro das camadas (celular serve).
-- [ ] **Fotos das impressões**: o Gabriel vai subir no Drive, em `Social Media/lelayer3d/Fotos recebidas`
-      (ID `1xnwsh4K03wsEfHv36xBM532d-uW8cQ8h`). Ao chegar: baixar para `assets/AAAA-MM-DD-descricao/`.
 - [ ] Logo em alta (PNG transparente ou vetor).
-- [ ] As figuras de Natal são impressas em 3D com textura de crochê? A arte de referência parece gerada por IA.
 - [ ] Preços do conjunto de Natal ainda valem? Prazo de produção? Envia pelos Correios ou só retirada?
 - [ ] Número de WhatsApp para CTA.
 
