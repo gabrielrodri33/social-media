@@ -1,5 +1,5 @@
 {
-  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "voice_id": "cjVigY5qzO86Huf0OWal",
   "model_id": "eleven_multilingual_v2",
   "language_code": "pt",
   "voice_settings": {
@@ -10,5 +10,5 @@
   },
   "voice_url": "https://elevenlabs.io/voices/F6z5r8W1ZxTsvUyVlvpG",
   "voice_id_preferida": "F6z5r8W1ZxTsvUyVlvpG",
-  "nota": "Samuel (preferida) exige plano pago. Brian (premade) é fallback do plano gratuito, SEM licença comercial: não publicar com voz gerada no plano gratuito."
+  "nota": "Eric (premade) escolhido pelo Gabriel em 2026-11-26. Gerado no plano gratuito = SEM licença comercial: para publicar, plano pago. Samuel (F6z5r8W1ZxTsvUyVlvpG) era a preferida e exige plano pago."
 }

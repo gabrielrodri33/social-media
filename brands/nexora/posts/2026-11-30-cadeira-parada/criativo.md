@@ -12,5 +12,8 @@ frame: 0
 equipe e equipamento. [botão: Chame no WhatsApp]
 Foto: Unsplash, "cadeira-vazia" (Katarzyna Zygnerska), ver assets/unsplash/CREDITS.json.
 
+## Aprovação
+- 2026-11-26: Gabriel aprovou o visual do criativo ("100% aprovado").
+
 ## Uso
 Criativo estático do dia (1080×1350). Legenda: a mesma do post.md.

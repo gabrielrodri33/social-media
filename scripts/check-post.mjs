@@ -46,7 +46,7 @@ for (const f of files) {
     raw = acc.join('\n');
   }
   // As seções de notas internas não vão para o público: não entram na varredura.
-  const pub = raw.replace(/## (Notas de aprovação|Revisões|Bloqueio de revisão|Resultado)[\s\S]*?(?=\n## |$)/g, '');
+  const pub = raw.replace(/## (Notas de aprovação|Aprovação|Revisões|Bloqueio de revisão|Resultado)[\s\S]*?(?=\n## |$)/g, '');
   // URLs saem da varredura (ex.: %C3%A1 de link do WhatsApp não é porcentagem).
   const text = norm(pub.replace(/https?:\/\/\S+/g, ' '));
   for (const t of comp.proibidos) {
