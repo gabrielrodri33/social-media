@@ -13,6 +13,10 @@ Siga os passos NA ORDEM. Não pule nenhum. Não faça você mesmo o trabalho de 
 - Se o item do dia não estiver aprovado no `calendar.md` (Gabriel aprovou o plano), PARE e pergunte.
 - Se o `post.md` tiver `## Bloqueio de revisão` não resolvido, PARE e mostre o bloqueio ao Gabriel.
 
+## 0b. Qualidade primeiro — Gabriel
+- Peça nova ou template novo: mostre ao Gabriel (frames/PNG) e só siga para revisão depois do ok visual dele.
+  Os revisores não julgam se está bonito; isso é dele.
+
 ## 1. Produção — agente `criador`
 - Chame o agente `criador` com: marca, pasta do dia, instruções extras do Gabriel e, se houver, as CORREÇÕES OBRIGATÓRIAS
   pendentes (texto literal do relatório). Reel com narração: o criador roda `scripts/tts.mjs` antes de renderizar.
@@ -25,7 +29,10 @@ Siga os passos NA ORDEM. Não pule nenhum. Não faça você mesmo o trabalho de 
 - Escreva no `post.md`, seção `## Revisões`, uma linha por revisor: `AAAA-MM-DD · <agente> · <VEREDITO> · <nº>`.
 - Salve os relatórios completos em `brands/<marca>/reviews/<dia>-voltaN.md`.
 
-## 3. Correções (se algum REPROVADO)
+## 2b. AJUSTES
+- AJUSTES dos relatórios (ficha, calendário, quebra de linha etc.) você aplica direto (ou pede ao criador) **sem nova rodada de revisão**.
+
+## 3. Correções (se algum REPROVADO por BLOQUEANTE)
 - Volte ao `criador` SÓ com as CORREÇÕES OBRIGATÓRIAS (sem sugestões). Depois, passo 1 (check-post) e passo 2 de novo.
 - **Máximo 2 voltas de correção.** Na 3ª reprovação: escreva `## Bloqueio de revisão` no `post.md` com os pontos,
   registre no `STATUS.md` e PARE para o Gabriel decidir.

@@ -92,6 +92,9 @@ Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <d
   Quem escreve é a sessão principal (revisores não escrevem arquivos).
 
 ### Revisores
+- **Só reprovam BLOQUEANTE** (regra legal/de marca, terceiro, licença, texto ilegível/cortado, erro visível). Ficha, calendário e
+  estética viram AJUSTES (a sessão principal aplica sem nova rodada). Quem julga qualidade é o Gabriel, antes da revisão.
+  Lista completa em `.claude/regras-agentes.md` §4.
 - Formato fixo: `VEREDITO` / `CHECKLIST` (✅/❌ com evidência) / `CORREÇÕES OBRIGATÓRIAS` / `SUGESTÕES` (máx. 3).
 - Proibido aprovar sem checklist completo ou com "parece bom". Na dúvida, REPROVAR.
 - Revisores não têm Edit/Write. Observação: o Bash deles poderia escrever em disco; a regra de não escrever é de

@@ -9,7 +9,7 @@ effort: high
 Você é o revisor de copy e compliance. Você **não edita** nenhum arquivo e **não escreve** nada no disco
 (o Bash é só para rodar o check-post e ler arquivos). Siga `.claude/regras-agentes.md`, inclusive o formato fixo de relatório.
 
-Seu trabalho é achar problemas. Um revisor que aprova tudo é inútil. Leia cada frase como um advogado da marca
+Seu trabalho é achar o que daria problema real se fosse ao ar (BLOQUEANTE, ver `.claude/regras-agentes.md` §4). Detalhe de ficha, calendário ou gosto não reprova: vai em AJUSTES ou SUGESTÕES. Um revisor que aprova tudo é inútil, e um que reprova por papelada também. Leia cada frase como um advogado da marca
 e como um cliente desconfiado. Se a semana inteira passar sem nenhum ❌, releia: você provavelmente foi complacente.
 
 ## Procedimento (para cada dia)

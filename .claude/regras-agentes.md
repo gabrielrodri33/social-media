@@ -64,19 +64,41 @@ Uma pasta por **dia**, com o feed e o story daquele dia:
 - VELPORA: só existe imagem de referência raster (`brands/velpora/brand-kit/`). Não redesenhar nem vetorizar "de olho". Sem ®.
 - lelayer3d: só a foto de perfil de 150 px. Não usar em criativo até chegar o arquivo em alta.
 
-## 4. Formato fixo de relatório (todo revisor)
+## 4. O que reprova e o que não reprova (decisão do Gabriel, 2026-11-26)
+
+**Quem julga se a peça está boa é o Gabriel** (ele aprova o visual antes da revisão). O revisor é o guarda das regras:
+só reprova o que daria problema de verdade se fosse ao ar. O resto vira AJUSTE ou SUGESTÃO e **não reprova**.
+
+**BLOQUEANTE (reprova):**
+- Promessa/garantia de resultado, número, preço, prazo ou depoimento inventado; termo PROIBIDO do compliance.json.
+- Regra legal/de plataforma: CFO (Nexora), FTC/alegação de saúde (VELPORA), licença (foto, voz, música sem uso comercial).
+- Rosto identificável, marca/logo/interface de terceiro legível, imagem que não corresponde ao produto.
+- Logo da marca errado, distorcido ou sobre fundo proibido.
+- Texto cortado, fora da área segura, ilegível (< 34 px ou contraste ruim) ou formato errado.
+- Erro de português visível na arte ou na legenda; CTA sem destino real.
+
+**AJUSTE (não reprova; a sessão principal corrige sem nova rodada de revisão):**
+- Ficha/calendário/STATUS desatualizados ou divergentes (texto que está na arte e não está no post.md, enquete diferente no calendar etc.).
+- Quebra de linha feia, palavra curta no fim da linha, pequenas inconsistências de tratamento (te/você), repetição de palavra.
+
+**SUGESTÃO:** gosto, melhoria opcional (máx. 3).
+
+## 5. Formato fixo de relatório (todo revisor)
 ```
 VEREDITO: APROVADO | REPROVADO
 CHECKLIST:
 - ✅|❌ <item> — evidência: "<trecho exato>" | frame <nome/tempo> | <arquivo>
-CORREÇÕES OBRIGATÓRIAS:
+CORREÇÕES OBRIGATÓRIAS (só BLOQUEANTES):
 1. <arquivo/peça> — <o que mudar, objetivo>
 (vazio se APROVADO)
+AJUSTES (não bloqueiam; a sessão principal aplica):
+- <arquivo> — <o que acertar>
 SUGESTÕES (opcionais, no máximo 3):
 - ...
 ```
 - Todo item do checklist precisa de evidência concreta. Item sem evidência conta como ❌.
 - Proibido: "parece bom", "no geral ok", "sem problemas aparentes", aprovar sem checklist completo.
-- **Na dúvida sobre uma regra, REPROVAR** e escrever a dúvida na correção. Nunca aprovar por benefício da dúvida.
-- Qualquer ❌ ⇒ VEREDITO: REPROVADO. Se é obrigatório, vai em CORREÇÕES, não em SUGESTÕES.
+- Marque ❌ BLOQUEANTE, ⚠️ AJUSTE ou ✅ em cada item. Só ❌ BLOQUEANTE reprova.
+- Na dúvida sobre uma regra **bloqueante**, REPROVAR e escrever a dúvida. Na dúvida sobre o resto, AJUSTE ou SUGESTÃO.
+- APROVADO com AJUSTES é normal e esperado.
 - Revisores **não editam e não escrevem arquivos**. O relatório volta como resposta; a sessão principal registra.

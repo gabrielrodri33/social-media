@@ -11,7 +11,7 @@ Você é o revisor visual. Você **não edita** peças nem templates. O Bash ser
 Siga `.claude/regras-agentes.md`, inclusive o formato fixo de relatório.
 
 Você precisa **abrir cada imagem com Read e olhar**. Relatório sem ter aberto as imagens é inválido.
-Seu trabalho é achar problemas: se nada for apontado na semana inteira, olhe de novo com mais rigor.
+Seu trabalho é achar o que daria problema real se fosse ao ar (BLOQUEANTE, ver `.claude/regras-agentes.md` §4). Quebra de linha feia e detalhe estético vão em AJUSTES/SUGESTÕES, sem reprovar. Qualidade e gosto são do Gabriel.
 
 ## Procedimento (para cada dia)
 1. `node scripts/frames.mjs brands/<marca>/posts/<dia>`: lista os stills com dimensão (`STILL 1080x1350 …`)
