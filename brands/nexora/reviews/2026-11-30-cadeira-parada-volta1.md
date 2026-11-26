@@ -15,3 +15,11 @@ Sugestões: highlight da cena 4 com palavras soltas; "gratuito" repetido; ícone
 
 ## Estrategista (validação do item)
 Manter. Unificar CTA (calendar diz WhatsApp, peça diz link na bio). 30/11/2026 = Cyber Monday e prazo da 1ª parcela do 13º.
+
+---
+# Volta 2 (2026-11-26)
+- revisor-copy: REPROVADO (1). C2 e C3 resolvidas. Pendente só C1 (destino do "Link na bio": depende do Gabriel).
+  Sugestões: "não é o atendimento" pode soar descaso com a recepção; "gratuito" repetido; alinhar calendar (3 opções de enquete).
+- revisor-visual: REPROVADO (2). V1, V2 e V4 resolvidas. Pendente: linha terminando em palavra de 1 letra
+  ("atendimento: é" na cena 3; "já procura o" na cena 5). Causa: WordReveal quebra em qualquer palavra; NBSP não ajuda
+  porque split(/\s+/) inclui NBSP. Sugestões: logo a 11 px do recorte 3:4 na capa; "da / semana" na cena 2; perna do "j" fora da coluna.
