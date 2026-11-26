@@ -7,6 +7,8 @@ import {Reel, calculateReelMetadata} from './brands/nexora/Reel';
 import {Slide} from './brands/nexora/Slide';
 import {Story} from './brands/nexora/Story';
 
+// ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
+// opcionais (eyebrow, body, sub...), senão eles vazam para todo post que não os define.
 // Convenção de ID: <Marca>-<Template> (ex.: Velpora-QuoteCard). Só letras, números e hífen.
 // As props de cada post ficam em brands/<marca>/posts/<dia>/props.json (feed) e story.props.json (story)
 // e são passadas no render com --props (scripts/render-post.sh faz isso).
@@ -61,7 +63,7 @@ export const Root: React.FC = () => (
         durationInFrames={1}
         fps={FPS}
         {...FORMATS.feed}
-        defaultProps={{kind: 'cover' as const, index: 1, total: 6, eyebrow: 'GOOGLE MAPS', title: 'Por que sua clínica não aparece no Maps?', highlight: 'não aparece'}}
+        defaultProps={{kind: 'cover' as const, index: 1, total: 6, title: 'Por que sua clínica não aparece no Maps?', highlight: 'não aparece'}}
       />
       <Composition
         id="Nexora-Story"
