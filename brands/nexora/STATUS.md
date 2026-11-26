@@ -12,6 +12,8 @@
 (Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
+- [ ] Gabriel aprovar pilares e plano da semana 1 (30/11 a 06/12) em `calendar.md`.
+- [ ] Montar templates: reel com legenda na tela, carrossel educativo, card, story.
 - [ ] Pilares de conteúdo da Nexora (não há briefing formal como o da VELPORA).
 - [ ] Voz ElevenLabs **pt-BR**: escolher voz e liberar a chave da API (`brands/nexora/voice.json`).
 

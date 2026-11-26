@@ -28,6 +28,8 @@ _Atualize ao fim de cada sessão. Decisões sempre com data._
   Rascunho do primeiro post já está lá com prefixo RASCUNHO-.
 
 ## Próximos passos
+- [ ] Gabriel aprovar o plano da semana 1 (30/11 a 06/12) em `calendar.md`.
+- [ ] Gabriel: significado do nome VELPORA (reel de 02/12) e fonte das imagens lifestyle (reels de 30/11, 04/12, 06/12).
 - [ ] Aprovar (ou ajustar) o QuoteCard e a copy do primeiro post.
-- [ ] Montar templates da semana 1: apresentação da marca (reel), "the meaning of VELPORA", 3 linhas (carrossel).
+- [ ] Montar templates da semana 1: reel de texto na tela, carrossel, story de enquete.
 - [ ] Capas de destaque (precisam do logo/símbolo).
