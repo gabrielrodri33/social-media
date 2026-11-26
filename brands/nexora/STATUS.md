@@ -15,6 +15,10 @@
 (Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
+- [ ] **Re-renderizar os feeds da semana 1 no padrão 1080×1350** (os carrosséis de 01/12 e 03/12 e o card de 05/12
+      foram gerados em 1080×1440 antes do padrão; os templates já estão corrigidos). Reels e stories não mudam.
+      No Drive já estão (em 1080×1440, a substituir): 30/11 completo e 01/12 completo. 02/12 a 06/12 não subiram:
+      geração interrompida pelo Gabriel em 2026-11-26, aguardando ordem para continuar.
 - [ ] Gabriel aprovar os 14 criativos da semana 1 (Drive, prefixo RASCUNHO-).
 - [ ] Montar templates: reel com legenda na tela, carrossel educativo, card, story.
 - [ ] Pilares de conteúdo da Nexora (não há briefing formal como o da VELPORA).

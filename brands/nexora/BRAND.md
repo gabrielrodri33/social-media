@@ -26,4 +26,4 @@ navy `#0B2A4F` (fundo escuro dos criativos `#071a33`), cyan `#00C8E8`, sky `#5BB
 Fontes: Inter (texto) e Montserrat (títulos), como na LP.
 
 ## Formatos
-Feed 4:5 (1080×1350) foi o usado até agora; pode migrar para 1080×1440. Stories/Reels 1080×1920.
+Feed e carrossel **1080×1350** com conteúdo no quadrado central 1080×1080. Stories/Reels 1080×1920 (padrão de 2026-11-26).

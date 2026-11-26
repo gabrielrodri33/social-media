@@ -16,9 +16,9 @@ export type SlideProps = {
   button?: string; // slide de CTA
 };
 
-// Um slide de carrossel (feed 1080×1440). O render-post.sh renderiza cada slide de props.json → slides[].
+// Um slide de carrossel (feed 1080×1350, conteúdo no quadrado central 1080×1080). O render-post.sh renderiza cada slide de props.json → slides[].
 export const Slide: React.FC<SlideProps> = ({kind, index, total, eyebrow, title, highlight, body, number, button}) => {
-  const titleSize = kind === 'cover' ? (title.length > 60 ? 88 : 100) : title.length > 50 ? 66 : 76;
+  const titleSize = kind === 'cover' ? (title.length > 50 ? 80 : 92) : title.length > 50 ? 58 : 68;
   return (
     <AbsoluteFill>
       <NxBackground />
@@ -30,13 +30,13 @@ export const Slide: React.FC<SlideProps> = ({kind, index, total, eyebrow, title,
         <div style={{flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
           {eyebrow && <Pill>{eyebrow}</Pill>}
           {number && (
-            <div style={{fontFamily: DISPLAY, fontWeight: 700, fontSize: 150, lineHeight: 1, color: 'transparent',
-              WebkitTextStroke: `3px ${C.cyan}`, marginBottom: 30}}>{number}</div>
+            <div style={{fontFamily: DISPLAY, fontWeight: 700, fontSize: 120, lineHeight: 1, color: 'transparent',
+              WebkitTextStroke: `3px ${C.cyan}`, marginBottom: 20}}>{number}</div>
           )}
-          <div style={{marginTop: eyebrow ? 44 : 0, fontFamily: DISPLAY, fontWeight: 700, fontSize: titleSize, lineHeight: 1.1,
+          <div style={{marginTop: eyebrow ? 32 : 0, fontFamily: DISPLAY, fontWeight: 700, fontSize: titleSize, lineHeight: 1.1,
             letterSpacing: -1.5, color: C.white}}><Hl text={title} highlight={highlight} /></div>
-          {body && <div style={{marginTop: 40, fontFamily: FONT, fontSize: 40, lineHeight: 1.42, color: C.ice, maxWidth: 860}}>{body}</div>}
-          {button && <div style={{marginTop: 64, display: 'flex'}}><CtaButton label={button} size={40} /></div>}
+          {body && <div style={{marginTop: 32, fontFamily: FONT, fontSize: 36, lineHeight: 1.4, color: C.ice, maxWidth: 860}}>{body}</div>}
+          {button && <div style={{marginTop: 48, display: 'flex'}}><CtaButton label={button} size={40} /></div>}
         </div>
         <div style={{fontFamily: FONT, fontWeight: 600, fontSize: 28, color: C.sky, alignSelf: kind === 'cta' ? 'flex-start' : 'flex-end'}}>
           {kind === 'cta' ? 'Link na bio · @mkt.nexora' : 'Arraste →'}

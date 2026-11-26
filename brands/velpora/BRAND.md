@@ -26,7 +26,8 @@ Produtos ainda **não definidos**: dependem de pesquisa de fornecedor. Não most
 
 - Títulos: **Playfair Display**. Texto/CTA: **Montserrat**. (No código: `studio/src/brands/velpora/brand.ts`.)
 - Minimalista, fundo claro, pouco texto, muito respiro. Sem cores vibrantes, sem excesso de emojis, sem cara de loja genérica.
-- Formatos: feed 1080×1440, Stories/Reels 1080×1920, sempre com margem de segurança.
+- Formatos: feed **1080×1350** com conteúdo no quadrado central 1080×1080; Stories/Reels 1080×1920.
+  (O briefing §11 pedia 1080×1440; substituído pelo padrão do Gabriel em 2026-11-26.)
 - Logo discreto e consistente.
 
 ## Logo e destaques (recebidos em 2026-11-26)

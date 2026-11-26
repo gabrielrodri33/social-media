@@ -2,7 +2,7 @@
 brand: velpora            # nexora | velpora | lelayer3d
 date: AAAA-MM-DD          # data planejada de publicação
 status: idea              # idea | draft | approved | published
-format: feed              # feed | carousel | reel | story
+format: feed              # feed | carousel (1080×1350, conteúdo em 1080×1080) | reel (1080×1920)
 pillar: brand-awareness   # pilar de conteúdo da marca (ver BRAND.md)
 composition: Velpora-QuoteCard
 frame: 59                 # frame usado no still (feed). Em vídeo, ignore.

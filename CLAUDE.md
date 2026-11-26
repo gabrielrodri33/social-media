@@ -64,7 +64,11 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 
 - Tudo dentro de `studio/`: `npm install`, `npm run studio`, `npm run typecheck`.
 - Remotion **compõe e anima**; ele não gera fotos. Fotos/vídeos reais entram por `assets/`.
-- Formatos: use `studio/src/shared/formats.ts` (feed 1080×1440, story/reels 1080×1920) e as margens `SAFE`.
+- **Formatos padrão (decisão do Gabriel, 2026-11-26), para as 3 marcas:**
+  - Story e Reels: **1080×1920**.
+  - Criativos de feed e carrossel: **1080×1350**, com **todo o conteúdo no quadrado central 1080×1080**
+    (y 135 a 1215) e margem lateral de 90 px. As faixas de cima e de baixo recebem só fundo.
+  - No código: `studio/src/shared/formats.ts` (`FORMATS`, `SAFE`, `FEED_SQUARE`). Nunca números soltos.
 - Fontes vêm de `@fontsource/*` (npm), não de Google Fonts em runtime.
 - **Em ambiente cloud do Claude Code**, use o Chromium instalado:
   `--browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell`
@@ -100,11 +104,13 @@ Decidido em 2026-11-26: fotos de banco vêm da **API do Unsplash** (licença Uns
   O `get` dispara o endpoint de download (exigido pelas diretrizes da API). Sempre baixar por ele, nunca pelo site.
 - Crédito não é obrigatório pela licença, mas fica registrado em `CREDITS.json` e no `post.md` (campo de notas).
 - **Limites da licença:** não revender a foto sem alteração; não montar coleção que concorra com o Unsplash;
-  não há autorização de imagem de pessoas nem de marcas: evitar fotos com rosto identificável ou logo de terceiro
-  em peça de venda (pode sugerir endosso), e nunca apresentar pessoa de banco como cliente/paciente real.
+  não há autorização de imagem de pessoas nem de marcas.
+- **Regra fixa (Gabriel, 2026-11-26): só fotos SEM ROSTO.** Mãos, silhuetas de costas, pets e ambientes, sim.
+  Rosto identificável, não, em nenhuma marca. Também evitar logo de terceiro visível.
 - **VELPORA:** Unsplash só para lifestyle (pets, casa, passeio). Nunca para representar produto vendido.
 - **lelayer3d:** não usar Unsplash para peças; só fotos reais das impressões.
 - **Nexora:** pode usar ambiente de clínica, mas sem sugerir que é a clínica de um cliente nem "antes e depois".
+- Controle de requisições: modo demo = 50/hora. Buscar com poucos termos bons e baixar só o que for usar.
 - Chave: Network secret do ambiente **social-media** para `api.unsplash.com`, header `Authorization`,
   valor `Client-ID <access key>`; ou variável `UNSPLASH_ACCESS_KEY`. Modo demo da API: 50 requisições/hora.
 - Os scripts Node usam o proxy do ambiente via `scripts/_proxy.mjs` (liga `NODE_USE_ENV_PROXY`).
