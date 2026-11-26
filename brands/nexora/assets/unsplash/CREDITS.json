@@ -1,0 +1,56 @@
+{
+  "cadeira-vazia.jpg": {
+    "id": "44jaETSVX2I",
+    "photographer": "Katarzyna Zygnerska",
+    "photographer_url": "https://unsplash.com/@katasha?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/a-white-dental-chair-in-a-room-with-a-window-44jaETSVX2I?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "A white dental chair in a room with a window",
+    "downloaded": "2026-11-26"
+  },
+  "consultorio.jpg": {
+    "id": "e7MJLM5VGjY",
+    "photographer": "Benyamin Bohlouli",
+    "photographer_url": "https://unsplash.com/@benyamin_bohlouli?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/modern-dental-office-with-chair-and-equipment-e7MJLM5VGjY?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "modern dental office with chair and equipment",
+    "downloaded": "2026-11-26"
+  },
+  "celular-mao.jpg": {
+    "id": "nDciGidCdQo",
+    "photographer": "Mika Baumeister",
+    "photographer_url": "https://unsplash.com/@kommumikation?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/person-holding-white-samsung-android-smartphone-nDciGidCdQo?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "person holding white samsung android smartphone",
+    "downloaded": "2026-11-26"
+  },
+  "pino-mapa.jpg": {
+    "id": "gecohhknetQ",
+    "photographer": "Anandu Chandran",
+    "photographer_url": "https://unsplash.com/@ananndhu__?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/a-google-maps-pin-sitting-on-top-of-a-piece-of-paper-gecohhknetQ?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "a google maps pin sitting on top of a piece of paper",
+    "downloaded": "2026-11-26"
+  },
+  "cadeira-laranja.jpg": {
+    "id": "XJptUS8nbhs",
+    "photographer": "Atikah Akhtar",
+    "photographer_url": "https://unsplash.com/@atikahakhtar?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/dental-chair-in-clinical-office-XJptUS8nbhs?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "An orange dental chair with medical equipment in a bright clinical office",
+    "downloaded": "2026-11-26"
+  },
+  "espelho.jpg": {
+    "id": "rubu_NvklJE",
+    "photographer": "Katarzyna Zygnerska",
+    "photographer_url": "https://unsplash.com/@katasha?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/dental-mirror-in-clinical-office-rubu_NvklJE?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "A dental mirror held in the foreground with a blurred dental chair behind",
+    "downloaded": "2026-11-26"
+  }
+}

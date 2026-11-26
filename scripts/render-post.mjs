@@ -2,6 +2,8 @@
 // Renderiza o dia de um post: node scripts/render-post.mjs brands/<marca>/posts/<dia> [--only=feed|story]
 // - post.md + props.json  → feed (still), carrossel (um PNG por slide) ou reel (MP4 + capa PNG)
 // - story.md + story.props.json → story (PNG)
+// - criativo.md + criativo.props.json → criativo estático do dia (PNG 1080×1350), opcional
+// --only=feed|story|criativo
 // - Reel com voice.mp3 + voice-timings.json (gerados por scripts/tts.mjs) sai narrado e sincronizado.
 // Saída em <dia>/render/.
 import {execFileSync} from 'node:child_process';
@@ -81,5 +83,6 @@ const writeLegenda = () => {
 };
 
 if (only !== 'story' && existsSync(path.join(dir, 'post.md'))) renderOne(path.join(dir, 'post.md'), path.join(dir, 'props.json'), '');
-if (only !== 'feed' && existsSync(path.join(dir, 'story.md'))) renderOne(path.join(dir, 'story.md'), path.join(dir, 'story.props.json'), '-story');
+if (only !== 'story' && only !== 'feed' || only === 'criativo') { if (existsSync(path.join(dir, 'criativo.md'))) renderOne(path.join(dir, 'criativo.md'), path.join(dir, 'criativo.props.json'), '-criativo'); }
+if (only !== 'feed' && only !== 'criativo' && existsSync(path.join(dir, 'story.md'))) renderOne(path.join(dir, 'story.md'), path.join(dir, 'story.props.json'), '-story');
 if (existsSync(path.join(dir, 'post.md'))) writeLegenda();

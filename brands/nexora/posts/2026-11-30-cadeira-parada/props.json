@@ -3,29 +3,42 @@
     {
       "text": "Cadeira parada não paga aluguel.",
       "highlight": "parada",
-      "eyebrow": "AGENDA COM BURACOS?"
+      "eyebrow": "AGENDA COM BURACOS?",
+      "photo": "assets/nexora/unsplash/cadeira-vazia.jpg",
+      "focus": "50% 40%"
     },
     {
       "text": "Cada horário vago no meio da semana custa aluguel, equipe e equipamento.",
-      "highlight": "custa"
+      "highlight": "custa",
+      "photo": "assets/nexora/unsplash/consultorio.jpg",
+      "focus": "40% 50%"
     },
     {
       "text": "Muitas vezes o problema não é o atendimento: é que o paciente não está te encontrando.",
-      "highlight": "não está te encontrando."
+      "highlight": "não está te encontrando.",
+      "photo": "assets/nexora/unsplash/espelho.jpg",
+      "focus": "50% 35%"
     },
     {
       "text": "Muita gente que procura dentista começa pelo Google e pelo Instagram.",
-      "highlight": "Google e pelo Instagram."
+      "highlight": "Google e pelo Instagram.",
+      "photo": "assets/nexora/unsplash/celular-mao.jpg",
+      "focus": "50% 40%"
     },
     {
       "text": "Nosso trabalho é colocar sua clínica na frente de quem já procura o tratamento.",
-      "highlight": "na frente"
+      "highlight": "na frente",
+      "photo": "assets/nexora/unsplash/cadeira-laranja.jpg",
+      "focus": "30% 50%"
     },
     {
       "text": "Comece pelo diagnóstico gratuito.",
       "highlight": "diagnóstico gratuito.",
       "sub": "Sem compromisso.",
-      "button": "Chame no WhatsApp"
+      "button": "Chame no WhatsApp",
+      "photo": "assets/nexora/unsplash/consultorio.jpg",
+      "focus": "70% 50%"
     }
-  ]
+  ],
+  "musicSrc": "assets/nexora/audio/trilha-01.mp3"
 }

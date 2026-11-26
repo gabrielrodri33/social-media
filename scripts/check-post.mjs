@@ -18,7 +18,7 @@ const errors = [], warns = [], ok = [];
 
 const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 const read = (f) => (existsSync(path.join(dir, f)) ? readFileSync(path.join(dir, f), 'utf8') : null);
-const files = ['post.md', 'story.md', 'props.json', 'story.props.json', 'voice.txt'];
+const files = ['post.md', 'story.md', 'criativo.md', 'props.json', 'story.props.json', 'criativo.props.json', 'voice.txt'];
 
 // 1) termos
 // Devolve as ocorrências com posição: [{m, i}]
@@ -35,8 +35,16 @@ const find = (term, text) => {
 // Termo proibido logo depois de negação ("nao garantimos", "never guaranteed") vira atenção: o revisor confirma.
 const negated = (text, i) => /(^|[^a-z])(nao|nunca|jamais|nem|not|never|no)\s+(\S+\s+){0,2}$/.test(text.slice(Math.max(0, i - 40), i));
 for (const f of files) {
-  const raw = read(f);
+  let raw = read(f);
   if (raw === null) continue;
+  // Nos props.json, só os campos de TEXTO vão para a varredura (foto, enquadramento e áudio não são copy).
+  if (f.endsWith('.json')) {
+    const TXT = new Set(['text', 'highlight', 'eyebrow', 'sub', 'button', 'title', 'body', 'quote', 'emphasis', 'footer']);
+    const acc = [];
+    const walk = (o) => { if (Array.isArray(o)) o.forEach(walk); else if (o && typeof o === 'object') for (const [k, v] of Object.entries(o)) { if (typeof v === 'string' && TXT.has(k)) acc.push(v); else walk(v); } };
+    walk(JSON.parse(raw));
+    raw = acc.join('\n');
+  }
   // As seções de notas internas não vão para o público: não entram na varredura.
   const pub = raw.replace(/## (Notas de aprovação|Revisões|Bloqueio de revisão|Resultado)[\s\S]*?(?=\n## |$)/g, '');
   // URLs saem da varredura (ex.: %C3%A1 de link do WhatsApp não é porcentagem).
@@ -55,9 +63,9 @@ for (const f of files) {
 
 // 2) frontmatter
 const fm = (raw) => Object.fromEntries([...(raw.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '').matchAll(/^(\w+):[ \t]*([^#\n]*?)[ \t]*(?:#.*)?$/gm)].map((x) => [x[1], x[2]]));
-for (const f of ['post.md', 'story.md']) {
+for (const f of ['post.md', 'story.md', 'criativo.md']) {
   const raw = read(f);
-  if (raw === null) { (f === 'post.md' ? errors : warns).push(`${f} não existe`); continue; }
+  if (raw === null) { if (f !== 'criativo.md') (f === 'post.md' ? errors : warns).push(`${f} não existe`); continue; }
   const meta = fm(raw);
   const miss = ['composition', 'format', 'date'].filter((k) => !meta[k]);
   if (meta.format === 'feed' || meta.format === 'carousel' || meta.format === 'reel' || meta.format === 'story') {

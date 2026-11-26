@@ -6,6 +6,7 @@ import {StatementCard} from './brands/nexora/StatementCard';
 import {Reel, calculateReelMetadata} from './brands/nexora/Reel';
 import {Slide} from './brands/nexora/Slide';
 import {Story} from './brands/nexora/Story';
+import {PhotoCard} from './brands/nexora/PhotoCard';
 
 // ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
 // opcionais (eyebrow, body, sub...), senão eles vazam para todo post que não os define.
@@ -72,6 +73,14 @@ export const Root: React.FC = () => (
         fps={FPS}
         {...FORMATS.story}
         defaultProps={{title: 'Sua agenda tem buraco no meio da semana?', highlight: 'buraco', sticker: 'poll' as const}}
+      />
+      <Composition
+        id="Nexora-PhotoCard"
+        component={PhotoCard}
+        durationInFrames={1}
+        fps={FPS}
+        {...FORMATS.feed}
+        defaultProps={{photo: 'assets/nexora/unsplash/cadeira-vazia.jpg', title: 'Cadeira parada não paga aluguel.', highlight: 'parada'}}
       />
     </Folder>
   </>
