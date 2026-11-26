@@ -41,7 +41,9 @@ brands/<marca>/
     voice.mp3, voice-timings.json   gerados por scripts/tts.mjs
   assets/           fotos e vídeos de entrada (originais enviados pelo Gabriel)
 studio/             projeto Remotion único, templates por marca em studio/src/brands/<marca>/
-scripts/            render-post.sh (→ render-post.mjs), tts.mjs (ElevenLabs), sync-nexora-brand.sh
+scripts/            render-post.sh (→ render-post.mjs), check-post.mjs, frames.mjs, tts.mjs, unsplash.mjs, sync-nexora-brand.sh
+.claude/agents/     agentes (estrategista, criador, revisor-copy, revisor-visual, guardiao-marca)
+brands/<marca>/compliance.json, reviews/   termos proibidos/atenção; relatórios semanais do guardião
 templates/post.md   modelo da ficha de post
 ```
 
@@ -59,6 +61,44 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 5. Narração (reel): `node scripts/tts.mjs <marca> <dia>` gera `voice.mp3` + `voice-timings.json`; renderize de novo
    e as cenas passam a seguir o tempo da fala. Sem voz, o reel usa tempo de leitura.
 6. Suba o render para o Drive (ver `DRIVE.md`), grave `drive_folder:` no `post.md` e atualize `calendar.md`.
+
+## Operação de agentes
+
+Agentes em `.claude/agents/` (um `.md` por agente). Regras comuns e mapa da estrutura: `.claude/regras-agentes.md`.
+
+| Agente | Faz | Ferramentas |
+|---|---|---|
+| `estrategista` | plano semanal de UMA marca no `calendar.md` (1 feed/dia alternando reel e estático + 1 story/dia), status `idea`, coluna "Depende de" | Read, Glob, Grep, Edit, Write |
+| `criador` | transforma um item do plano em pasta do dia, renderiza, roda `check-post.mjs`; corrige só o que os revisores apontarem | Read, Glob, Grep, Edit, Write, Bash |
+| `revisor-copy` | texto + compliance (termos de `compliance.json`, CFO, FTC, preços/prazos) | Read, Glob, Grep, Bash (sem Edit/Write) |
+| `revisor-visual` | abre os PNGs e os frames do reel (`scripts/frames.mjs`) e confere formato, área segura, legibilidade, logo, paleta | Read, Glob, Grep, Bash (sem Edit/Write) |
+| `guardiao-marca` | lote semanal inteiro: repetição, variedade, tom, pilares, "loja genérica"; até 5 recomendações | Read, Glob, Grep |
+
+Todos usam o modelo padrão da sessão (`model: inherit`).
+
+### Fluxo
+1. `estrategista` → plano no `calendar.md` → **Gabriel aprova o plano**.
+2. Para cada dia: `criador` produz → `node scripts/check-post.mjs <dia>` → `revisor-copy` e `revisor-visual` **em paralelo**.
+3. Qualquer REPROVADO → volta ao `criador` só com as CORREÇÕES OBRIGATÓRIAS. **Máximo 2 voltas.** Na 3ª reprovação,
+   escrever no `post.md` a seção `## Bloqueio de revisão` com os pontos pendentes e levar ao Gabriel decidir.
+4. Aprovado pelos dois revisores → a sessão principal sobe ao Drive com prefixo `RASCUNHO-` (ver `DRIVE.md`),
+   incluindo `render/LEGENDA.txt`; status continua `draft`.
+5. Fim do lote → `guardiao-marca` → a sessão principal salva o relatório em `brands/<marca>/reviews/AAAA-MM-DD-semana.md`.
+6. Gabriel aprova em lote → status `approved`. **Nenhum agente marca `approved` ou `published`.**
+- Em cada `post.md`, seção `## Revisões`: uma linha por revisão, `AAAA-MM-DD · <agente> · <VEREDITO> · <nº de correções>`.
+  Quem escreve é a sessão principal (revisores não escrevem arquivos).
+
+### Revisores
+- Formato fixo: `VEREDITO` / `CHECKLIST` (✅/❌ com evidência) / `CORREÇÕES OBRIGATÓRIAS` / `SUGESTÕES` (máx. 3).
+- Proibido aprovar sem checklist completo ou com "parece bom". Na dúvida, REPROVAR.
+- Revisores não têm Edit/Write. Observação: o Bash deles poderia escrever em disco; a regra de não escrever é de
+  prompt, não de permissão. Para travar de verdade seria preciso um hook.
+
+### Termos proibidos e de atenção
+- Ficam **só** em `brands/<marca>/compliance.json` (`proibidos` reprovam; `atencao` pedem justificativa).
+  Termos novos entram só ali. Aceita `re:` para expressão regular (texto já sem acento e minúsculo).
+- Proibido logo depois de negação ("não garantimos") vira atenção para o revisor confirmar.
+- URLs e seções internas do post.md (Notas de aprovação, Revisões, Bloqueio, Resultado) não são varridas.
 
 ## Remotion
 

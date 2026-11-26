@@ -48,5 +48,7 @@ Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no a
 ## Notas de aprovação
 - 2026-11-26: produzido. Aguardando aprovação do Gabriel.
 
+## Revisões
+
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:

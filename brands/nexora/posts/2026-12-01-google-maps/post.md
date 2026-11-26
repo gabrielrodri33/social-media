@@ -42,5 +42,7 @@ Quer saber o que está tirando sua clínica do mapa? A gente analisa seu perfil 
 ## Notas de aprovação
 - 2026-11-26: produzido. Aguardando aprovação do Gabriel.
 
+## Revisões
+
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:

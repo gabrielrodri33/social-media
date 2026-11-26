@@ -41,5 +41,7 @@ Manda esse post pro seu sócio. 😉
 ## Notas de aprovação
 - 2026-11-26: produzido. Aguardando aprovação do Gabriel.
 
+## Revisões
+
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:

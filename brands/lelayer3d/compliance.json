@@ -1,0 +1,27 @@
+{
+  "_como_usar": "Termos novos entram SÓ neste arquivo. 'proibidos' reprovam automaticamente no scripts/check-post.mjs; 'atencao' exigem justificativa no relatório do revisor-copy. Comparação sem maiúsculas e sem acentos (escreva os termos sem acento); termos com letras casam por palavra inteira. Prefixo 're:' = expressão regular aplicada ao texto já normalizado (minúsculo, sem acento). Seções internas do post.md (Notas de aprovação, Revisões, Bloqueio de revisão, Resultado) e URLs não são varridas.",
+  "proibidos": [
+    "entrega garantida",
+    "prazo garantido",
+    "pronta entrega",
+    "frete gratis",
+    "envio imediato",
+    "re:entrega em \\d+ (horas|h|dias)"
+  ],
+  "atencao": [
+    "R$",
+    "re:\\b\\d+\\s*(dias|dia util|dias uteis|horas)\\b",
+    "prazo",
+    "entrega",
+    "frete",
+    "promocao",
+    "desconto",
+    "oferta",
+    "ultimas unidades",
+    "re:\\d+\\s*%"
+  ],
+  "_notas": [
+    "'pronta entrega' e 'envio imediato' ficam proibidos até o dono confirmar estoque (registrar no STATUS.md com data e tirar daqui).",
+    "Preço (R$) só passa se o valor estiver confirmado no STATUS.md com data."
+  ]
+}

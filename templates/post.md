@@ -27,5 +27,8 @@ Uma frase: por que esse post existe.
 ## Notas de aprovação
 - AAAA-MM-DD: ...
 
+## Revisões
+(uma linha por revisão: AAAA-MM-DD · agente · VEREDITO · nº de correções)
+
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:

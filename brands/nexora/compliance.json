@@ -1,0 +1,37 @@
+{
+  "_como_usar": "Termos novos entram SÓ neste arquivo. 'proibidos' reprovam automaticamente no scripts/check-post.mjs; 'atencao' exigem justificativa no relatório do revisor-copy. Comparação sem maiúsculas e sem acentos (escreva os termos sem acento); termos com letras casam por palavra inteira. Prefixo 're:' = expressão regular aplicada ao texto já normalizado (minúsculo, sem acento). Seções internas do post.md (Notas de aprovação, Revisões, Bloqueio de revisão, Resultado) e URLs não são varridas.",
+  "proibidos": [
+    "garantimos resultado",
+    "garantimos resultados",
+    "garantimos pacientes",
+    "garantimos faturamento",
+    "resultado garantido",
+    "resultados garantidos",
+    "pacientes garantidos",
+    "faturamento garantido",
+    "agenda cheia garantida",
+    "garantia de resultado",
+    "garantia de pacientes",
+    "maior faturamento",
+    "dobre seu faturamento",
+    "triplique seu faturamento",
+    "antes e depois",
+    "o melhor dentista",
+    "a melhor clinica",
+    "re:(lote|encha|lotar) (a|sua) agenda",
+    "re:\\b\\d+ (novos )?pacientes (por|ao) (mes|semana|dia)"
+  ],
+  "atencao": [
+    "re:\\bgarant\\w*",
+    "mais pacientes",
+    "faturamento",
+    "lucro",
+    "agenda cheia",
+    "resultado",
+    "re:\\d+\\s*%",
+    "re:\\d+x\\b"
+  ],
+  "_notas": [
+    "'garant*' é atenção (não proibido) porque a Nexora usa a negação no posicionamento ('não garantimos', 'desconfie de quem garante'). O revisor confirma que é negação."
+  ]
+}

@@ -70,5 +70,16 @@ const renderOne = (mdFile, propsFile, suffix) => {
   }
 };
 
+// Texto para publicar pelo celular (sobe ao Drive junto com as peças).
+const writeLegenda = () => {
+  const post = readFileSync(path.join(dir, 'post.md'), 'utf8');
+  const sec = (n) => post.match(new RegExp(`## ${n}\\n([\\s\\S]*?)(?=\\n## |$)`))?.[1].trim() ?? '';
+  const story = existsSync(path.join(dir, 'story.md')) ? readFileSync(path.join(dir, 'story.md'), 'utf8').split('## Como publicar\n')[1]?.trim() ?? '' : '';
+  const brand = dir.match(/brands\/([^/]+)\//)?.[1] ?? '';
+  writeFileSync(path.join(out, 'LEGENDA.txt'), `${slug} (${brand})\n\nLEGENDA DO FEED\n\n${sec('Legenda')}\n\n${sec('Hashtags')}\n\n---\nSTORY DO DIA\n${story}\n`);
+  console.log('OK', path.relative(root, path.join(out, 'LEGENDA.txt')));
+};
+
 if (only !== 'story' && existsSync(path.join(dir, 'post.md'))) renderOne(path.join(dir, 'post.md'), path.join(dir, 'props.json'), '');
 if (only !== 'feed' && existsSync(path.join(dir, 'story.md'))) renderOne(path.join(dir, 'story.md'), path.join(dir, 'story.props.json'), '-story');
+if (existsSync(path.join(dir, 'post.md'))) writeLegenda();
