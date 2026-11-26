@@ -1,0 +1,34 @@
+{
+  "scenes": [
+    {
+      "text": "Como a Nexora trabalha, em 4 passos.",
+      "highlight": "4 passos.",
+      "eyebrow": "SEM CAIXA-PRETA"
+    },
+    {
+      "text": "1. Diagnóstico.",
+      "highlight": "Diagnóstico.",
+      "sub": "Seu Google, seu Instagram e a concorrência no bairro."
+    },
+    {
+      "text": "2. Planejamento.",
+      "highlight": "Planejamento.",
+      "sub": "Tratamentos prioritários, região e verba sugerida."
+    },
+    {
+      "text": "3. Campanhas no ar.",
+      "highlight": "no ar.",
+      "sub": "Tudo ligado ao WhatsApp da sua recepção."
+    },
+    {
+      "text": "4. Relatório todo mês.",
+      "highlight": "todo mês.",
+      "sub": "Quanto investiu, quantos contatos vieram e o que vamos ajustar."
+    },
+    {
+      "text": "Comece pelo diagnóstico gratuito.",
+      "highlight": "diagnóstico gratuito.",
+      "button": "Link na bio"
+    }
+  ]
+}

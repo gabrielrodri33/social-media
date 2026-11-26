@@ -1,0 +1,41 @@
+{
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ANÚNCIOS",
+      "title": "Impulsionar post não é anúncio no Google.",
+      "highlight": "não é"
+    },
+    {
+      "kind": "point",
+      "title": "No Google, o paciente já está procurando.",
+      "highlight": "já está procurando.",
+      "body": "Quem digita \"lentes de resina perto de mim\" já decidiu que quer resolver. Falta escolher onde."
+    },
+    {
+      "kind": "point",
+      "title": "No Instagram, você chama a atenção de quem não estava procurando.",
+      "highlight": "não estava procurando.",
+      "body": "Ótimo para ser lembrado e criar desejo. Mas a decisão costuma levar mais tempo."
+    },
+    {
+      "kind": "point",
+      "title": "O botão \"impulsionar\" sem objetivo compra alcance, não conversa.",
+      "highlight": "alcance,",
+      "body": "Sem público, objetivo e mensagem definidos, o resultado vira curtida. Curtida não senta na cadeira."
+    },
+    {
+      "kind": "point",
+      "title": "Não é um ou outro. Cada um tem um papel.",
+      "highlight": "Cada um tem um papel.",
+      "body": "Google para quem já busca. Instagram para ser lembrado. Os dois levando para o WhatsApp da recepção."
+    },
+    {
+      "kind": "cta",
+      "title": "Não sabe qual faz sentido para sua clínica?",
+      "highlight": "qual faz sentido",
+      "body": "A gente indica por onde começar, de acordo com o momento da clínica.",
+      "button": "Fale com a Nexora"
+    }
+  ]
+}

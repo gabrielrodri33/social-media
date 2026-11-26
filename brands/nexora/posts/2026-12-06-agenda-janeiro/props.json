@@ -1,0 +1,34 @@
+{
+  "scenes": [
+    {
+      "text": "A agenda de janeiro se planeja em dezembro.",
+      "highlight": "em dezembro.",
+      "eyebrow": "CHECKLIST DE FIM DE ANO"
+    },
+    {
+      "text": "Antes do ano virar, revise 3 coisas.",
+      "highlight": "3 coisas."
+    },
+    {
+      "text": "Seu perfil no Google.",
+      "highlight": "perfil no Google.",
+      "sub": "Horários de fim de ano, fotos e serviços atualizados."
+    },
+    {
+      "text": "Suas avaliações.",
+      "highlight": "avaliações.",
+      "sub": "Responda todas, inclusive as negativas, com educação."
+    },
+    {
+      "text": "Sua verba.",
+      "highlight": "verba.",
+      "sub": "Defina quanto investir e em quais tratamentos."
+    },
+    {
+      "text": "Quer ajuda com isso?",
+      "highlight": "ajuda",
+      "sub": "Peça seu diagnóstico gratuito.",
+      "button": "Link na bio"
+    }
+  ]
+}

@@ -3,3 +3,4 @@ studio/out/
 brands/*/posts/*/render/
 .env*
 .DS_Store
+studio/public/voice/

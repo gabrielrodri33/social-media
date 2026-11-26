@@ -9,7 +9,7 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 4. **Método**: como a Nexora trabalha (diagnóstico → relatório).
 5. **Conversão**: diagnóstico gratuito pelo WhatsApp.
 
-## Semana 1: 30/11 a 06/12/2026 (status: idea, aguardando aprovação do plano)
+## Semana 1: 30/11 a 06/12/2026 (status: draft, produzida em 2026-11-26, aguardando aprovação)
 
 | Data | Formato | Pilar | Tema / gancho | CTA | Depende de |
 |---|---|---|---|---|---|
@@ -35,3 +35,10 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 ## Publicados / produzidos
 | Data | Formato | Pilar | Post | Status |
 |---|---|---|---|---|
+| 2026-11-30 | reel + story | dor | [cadeira-parada](posts/2026-11-30-cadeira-parada/post.md) | draft |
+| 2026-12-01 | carrossel + story | educação | [google-maps](posts/2026-12-01-google-maps/post.md) | draft |
+| 2026-12-02 | reel + story | posicionamento | [garantia-pacientes](posts/2026-12-02-garantia-pacientes/post.md) | draft |
+| 2026-12-03 | carrossel + story | educação | [impulsionar-vs-google](posts/2026-12-03-impulsionar-vs-google/post.md) | draft |
+| 2026-12-04 | reel + story | método | [como-funciona](posts/2026-12-04-como-funciona/post.md) | draft |
+| 2026-12-05 | card + story | posicionamento | [contas-no-nome](posts/2026-12-05-contas-no-nome/post.md) | draft |
+| 2026-12-06 | reel + story | educação | [agenda-janeiro](posts/2026-12-06-agenda-janeiro/post.md) | draft |

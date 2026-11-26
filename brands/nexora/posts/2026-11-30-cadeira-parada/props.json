@@ -1,0 +1,31 @@
+{
+  "scenes": [
+    {
+      "text": "Cadeira parada não paga aluguel.",
+      "highlight": "parada",
+      "eyebrow": "AGENDA COM BURACOS?"
+    },
+    {
+      "text": "Cada horário vago no meio da semana custa aluguel, equipe e equipamento.",
+      "highlight": "custa"
+    },
+    {
+      "text": "Muitas vezes o problema não é o atendimento. É que o paciente não está te encontrando.",
+      "highlight": "não está te encontrando."
+    },
+    {
+      "text": "Quem procura dentista hoje começa no Google e no Instagram.",
+      "highlight": "Google Instagram."
+    },
+    {
+      "text": "A Nexora coloca sua clínica na frente de quem já procura o tratamento.",
+      "highlight": "na frente"
+    },
+    {
+      "text": "Comece pelo diagnóstico gratuito.",
+      "highlight": "diagnóstico gratuito.",
+      "sub": "Gratuito e sem compromisso.",
+      "button": "Link na bio"
+    }
+  ]
+}

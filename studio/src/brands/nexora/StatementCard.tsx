@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {SAFE} from '../../shared/formats';
 import {C, DISPLAY, FONT, NexoraLogo} from './brand';
+import {NxBackground} from './ui';
 
 export type StatementCardProps = {eyebrow: string; title: string; highlight?: string; body: string};
 
@@ -9,7 +10,9 @@ export type StatementCardProps = {eyebrow: string; title: string; highlight?: st
 export const StatementCard: React.FC<StatementCardProps> = ({eyebrow, title, highlight, body}) => {
   const parts = highlight && title.includes(highlight) ? title.split(highlight) : [title];
   return (
-    <AbsoluteFill style={{background: C.navy, padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`}}>
+    <AbsoluteFill>
+      <NxBackground />
+      <AbsoluteFill style={{padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`}}>
       <NexoraLogo variant="logo" theme="dark" height={90} />
       <div style={{flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
         <div style={{alignSelf: 'flex-start', padding: '12px 30px', borderRadius: 999, border: `2.5px solid ${C.cyan}`, color: C.white,
@@ -19,6 +22,8 @@ export const StatementCard: React.FC<StatementCardProps> = ({eyebrow, title, hig
         </div>
         <div style={{marginTop: 40, fontFamily: FONT, fontSize: 38, lineHeight: 1.4, color: C.ice, maxWidth: 820}}>{body}</div>
       </div>
+      <div style={{fontFamily: FONT, fontWeight: 600, fontSize: 28, color: C.sky}}>@mkt.nexora</div>
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 };

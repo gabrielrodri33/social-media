@@ -32,13 +32,16 @@ brands/<marca>/
   BRAND.md          identidade, tom, cores, regras proibidas (fonte da verdade da marca)
   STATUS.md         memória viva: pendências, decisões (com data), próximos passos
   calendar.md       calendário editorial (o que sai, quando, status)
-  posts/AAAA-MM-DD-slug/
-    post.md         ficha do post: frontmatter (status, formato, pilar, composição) + legenda + roteiro
-    props.json      props passadas ao template Remotion
-    voice.txt       (opcional) texto da narração ElevenLabs
+  posts/AAAA-MM-DD-slug/   uma pasta por DIA (feed + story do dia)
+    post.md         ficha do feed: frontmatter (status, format: feed|carousel|reel, composição) + legenda + roteiro
+    props.json      props do template (carrossel: {slides: [...]}; reel: {scenes: [...]})
+    story.md        ficha do story do dia (format: story) + como colocar a figurinha no app
+    story.props.json
+    voice.txt       (reel) narração: UMA LINHA POR CENA, mesma ordem de props.scenes
+    voice.mp3, voice-timings.json   gerados por scripts/tts.mjs
   assets/           fotos e vídeos de entrada (originais enviados pelo Gabriel)
 studio/             projeto Remotion único, templates por marca em studio/src/brands/<marca>/
-scripts/            render-post.sh, tts.mjs (ElevenLabs), sync-nexora-brand.sh
+scripts/            render-post.sh (→ render-post.mjs), tts.mjs (ElevenLabs), sync-nexora-brand.sh
 templates/post.md   modelo da ficha de post
 ```
 
@@ -50,9 +53,11 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 1. Crie a pasta a partir de `templates/post.md`.
 2. Escolha um template (composição) em `studio/src/Root.tsx` ou crie um novo em `studio/src/brands/<marca>/`.
    ID da composição: `<Marca>-<Template>` (ex.: `Velpora-QuoteCard`).
-3. Escreva `props.json`, renderize: `scripts/render-post.sh brands/<marca>/posts/<post>`.
+3. Escreva `props.json` (e `story.props.json`), renderize: `scripts/render-post.sh brands/<marca>/posts/<dia>`
+   (`--only=feed` ou `--only=story`). Carrossel sai um PNG por slide; reel sai MP4 + capa PNG.
 4. **Confira os frames** (abra o PNG; em vídeo, extraia frames do início, meio e fim) antes de entregar.
-5. Narração: `node scripts/tts.mjs <marca> <post-dir>` gera `voice.mp3` a partir de `voice.txt`.
+5. Narração (reel): `node scripts/tts.mjs <marca> <dia>` gera `voice.mp3` + `voice-timings.json`; renderize de novo
+   e as cenas passam a seguir o tempo da fala. Sem voz, o reel usa tempo de leitura.
 6. Suba o render para o Drive (ver `DRIVE.md`), grave `drive_folder:` no `post.md` e atualize `calendar.md`.
 
 ## Remotion
@@ -90,8 +95,10 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 ## Voz (ElevenLabs)
 
 - `scripts/tts.mjs` lê `brands/<marca>/voice.json` (voice_id, modelo, ajustes) e o `voice.txt` do post.
+  Vozes escolhidas (2026-11-26): Nexora `F6z5r8W1ZxTsvUyVlvpG` (pt-BR), VELPORA `zfc8CJQpe8Kqyl0vvCzo` (en-US).
 - A chave da API **nunca** vai para o repositório. No cloud, peça com a ferramenta de credencial
   (host `api.elevenlabs.io`, header `xi-api-key`); localmente, variável `ELEVENLABS_API_KEY`.
+  Ambiente cloud próprio: **social-media** (criado em 2026-11-26). A chave entra em Network secrets desse ambiente.
 - Voz realista gerada por IA: no Instagram, marque o rótulo "AI info" quando a política da Meta exigir.
 
 ## Verificação antes de commitar

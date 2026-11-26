@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "GOOGLE MAPS",
+      "title": "Por que sua clínica não aparece no Google Maps?",
+      "highlight": "não aparece"
+    },
+    {
+      "kind": "point",
+      "title": "O Google usa 3 critérios para ordenar o Maps.",
+      "highlight": "3 critérios",
+      "body": "Relevância, distância e proeminência. É o próprio Google que diz isso na ajuda do Perfil da Empresa."
+    },
+    {
+      "kind": "point",
+      "number": "01",
+      "title": "Relevância",
+      "highlight": "Relevância",
+      "body": "Seu perfil precisa dizer o que você faz: categoria certa, serviços e tratamentos descritos, horários atualizados."
+    },
+    {
+      "kind": "point",
+      "number": "02",
+      "title": "Distância",
+      "highlight": "Distância",
+      "body": "Você não muda o endereço, mas pode deixar claro a região que atende e manter o endereço idêntico em todo lugar."
+    },
+    {
+      "kind": "point",
+      "number": "03",
+      "title": "Proeminência",
+      "highlight": "Proeminência",
+      "body": "Avaliações reais, respostas a todas elas, fotos da clínica de verdade. Nunca compre avaliação: é contra as regras do Google."
+    },
+    {
+      "kind": "cta",
+      "title": "Quer saber o que está tirando sua clínica do mapa?",
+      "highlight": "tirando sua clínica do mapa?",
+      "body": "A gente olha seu perfil e te mostra pelo WhatsApp. Em 10 minutos, gratuito e sem compromisso.",
+      "button": "Diagnóstico gratuito"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "scenes": [
+    {
+      "text": "Vocês garantem número de pacientes?",
+      "highlight": "garantem",
+      "eyebrow": "PERGUNTA SINCERA"
+    },
+    {
+      "text": "Não. E desconfie de quem garante.",
+      "highlight": "Não."
+    },
+    {
+      "text": "Nosso trabalho é colocar sua clínica na frente de quem procura o tratamento e gerar conversas no WhatsApp.",
+      "highlight": "conversas WhatsApp."
+    },
+    {
+      "text": "Virar avaliação depende também do atendimento, do preço e da agenda.",
+      "highlight": "também"
+    },
+    {
+      "text": "A gente ajuda nisso também. Promessa milagrosa, não.",
+      "highlight": "milagrosa,"
+    },
+    {
+      "text": "Marketing odontológico sem promessa milagrosa.",
+      "highlight": "sem promessa milagrosa.",
+      "button": "Fale com a Nexora"
+    }
+  ]
+}
