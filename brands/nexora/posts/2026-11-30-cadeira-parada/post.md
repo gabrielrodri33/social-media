@@ -19,7 +19,7 @@ Abrir a semana com a dor mais concreta do dono de clínica (agenda com buracos) 
 3. Muitas vezes o problema não é o atendimento: é que o paciente não está te encontrando.
 4. Muita gente que procura dentista começa pelo Google e pelo Instagram.
 5. Nosso trabalho é colocar sua clínica na frente de quem já procura o tratamento.
-6. Comece pelo diagnóstico gratuito. (Gratuito e sem compromisso.) [botão: Link na bio]
+6. Comece pelo diagnóstico gratuito. (Sem compromisso.) [botão: Chama no WhatsApp]
 
 ## Legenda
 Cadeira parada não paga aluguel. 🦷
@@ -28,7 +28,7 @@ Horário vago no meio da semana custa caro: aluguel, equipe, equipamento. E muit
 
 Hoje, muita gente que procura dentista começa pelo Google e pelo Instagram. O nosso trabalho é colocar sua clínica na frente de quem já está procurando o tratamento, no seu bairro.
 
-Quer saber por onde começar? Peça o diagnóstico gratuito do perfil da sua clínica no Google. Link na bio.
+Quer saber por onde começar? Peça o diagnóstico gratuito do perfil da sua clínica no Google pelo WhatsApp. O link está na bio.
 
 ## Hashtags
 #marketingodontologico #dentistas #clinicaodontologica #odontologia #dentistasp #gestaodeclinica #googlemeunegocio
@@ -41,7 +41,7 @@ Uma cena por linha de `voice.txt` (narração pt-BR, voz em `../../voice.json`).
 3. Muitas vezes o problema não é o atendimento: é que o paciente não está te encontrando.
 4. Muita gente que procura dentista começa pelo Google e pelo Instagram.
 5. Nosso trabalho é colocar sua clínica na frente de quem já procura o tratamento.
-6. Comece pelo diagnóstico gratuito. (Gratuito e sem compromisso.) [botão: Link na bio]
+6. Comece pelo diagnóstico gratuito. Chama no WhatsApp: o link está na bio. (Sem compromisso.) [botão: Chama no WhatsApp]
 
 Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no app em volume baixo sob a narração.
 
@@ -54,6 +54,7 @@ Aberto em 2026-11-26 após 2 voltas de correção. Decisão do Gabriel:
   mas não está registrado para onde aponta o link da bio do @mkt.nexora. Opções: (a) a bio leva ao WhatsApp → trocar
   botão/narração/legenda para deixar o WhatsApp explícito; (b) a bio leva à LP → tirar o ícone do WhatsApp do botão;
   (c) CTA direto "Chama no WhatsApp" com o número. Visual está APROVADO.
+Resolvido em 2026-11-26: Gabriel confirmou link da bio → WhatsApp; CTA explícito aplicado.
 
 ## Revisões
 - 2026-11-26 · estrategista · manter (CTA divergente do calendar; Cyber Monday e 13º no dia) · 2 ajustes
