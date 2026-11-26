@@ -24,7 +24,7 @@
       rascunho e substituir depois de aprovados. Daqui em diante: só sobe com APROVADO dos dois revisores.
 - [ ] **Re-renderizar os feeds da semana 1 no padrão 1080×1350** (os carrosséis de 01/12 e 03/12 e o card de 05/12
       foram gerados em 1080×1440 antes do padrão; os templates já estão corrigidos). Reels e stories não mudam.
-      No Drive já estão (em 1080×1440, a substituir): 30/11 completo e 01/12 completo. 02/12 a 06/12 não subiram:
+      No Drive, a substituir: 01/12 (carrossel em 1080×1440). 30/11 já está na versão aprovada. 02/12 a 06/12 não subiram:
       geração interrompida pelo Gabriel em 2026-11-26, aguardando ordem para continuar.
 - [ ] Gabriel aprovar os 14 criativos da semana 1 (Drive, prefixo RASCUNHO-).
 - [ ] Montar templates: reel com legenda na tela, carrossel educativo, card, story.
