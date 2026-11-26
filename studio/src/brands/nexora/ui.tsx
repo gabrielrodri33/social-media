@@ -17,7 +17,7 @@ export const NxBackground: React.FC<{animate?: boolean}> = ({animate = false}) =
   );
 };
 
-export const Pill: React.FC<{children: React.ReactNode; o?: number; size?: number}> = ({children, o = 1, size = 28}) => (
+export const Pill: React.FC<{children: React.ReactNode; o?: number; size?: number}> = ({children, o = 1, size = 34}) => (
   <div style={{alignSelf: 'flex-start', padding: `${size * 0.45}px ${size * 1.1}px`, borderRadius: 999, border: `2.5px solid ${C.cyan}`,
     color: C.white, fontFamily: FONT, fontWeight: 600, fontSize: size, letterSpacing: size * 0.18, opacity: o,
     transform: `translateY(${(1 - o) * 20}px)`}}>{children}</div>
@@ -50,15 +50,29 @@ export const WordReveal: React.FC<{text: string; highlight?: string; size: numbe
     if (loose.has(w)) { loose.delete(w); return true; }
     return false;
   };
+  const renderWord = (w: string, i: number) => {
+    const s = spring({frame: f - start - i * 3, fps, config: {damping: 16}});
+    return (
+      <span key={i} style={{fontFamily: DISPLAY, fontWeight: weight, fontSize: size, lineHeight: 1.1, letterSpacing: -1.2,
+        color: isHl(i, w) ? C.cyan : color, opacity: s, transform: `translateY(${(1 - s) * 34}px)`}}>{w}</span>
+    );
+  };
+  const gap = size * 0.26;
+  const items: React.ReactNode[] = [];
+  for (let i = 0; i < words.length; i++) {
+    if (hlStart >= 0 && i === hlStart && hw.length > 1) {
+      // Trecho destacado contíguo vira um bloco único: se não cabe no resto da linha, desce inteiro.
+      // Só quebra por dentro se for mais largo que a linha toda (maxWidth 100%), para não estourar a área.
+      const group = words.slice(hlStart, hlStart + hw.length).map((w, j) => renderWord(w, hlStart + j));
+      items.push(<span key={`hl-${i}`} style={{display: 'inline-flex', flexWrap: 'wrap', maxWidth: '100%', columnGap: gap, rowGap: size * 0.06}}>{group}</span>);
+      i += hw.length - 1;
+    } else {
+      items.push(renderWord(words[i], i));
+    }
+  }
   return (
-    <div style={{display: 'flex', flexWrap: 'wrap', columnGap: size * 0.26, rowGap: size * 0.06}}>
-      {words.map((w, i) => {
-        const s = spring({frame: f - start - i * 3, fps, config: {damping: 16}});
-        return (
-          <span key={i} style={{fontFamily: DISPLAY, fontWeight: weight, fontSize: size, lineHeight: 1.1, letterSpacing: -1.2,
-            color: isHl(i, w) ? C.cyan : color, opacity: s, transform: `translateY(${(1 - s) * 34}px)`}}>{w}</span>
-        );
-      })}
+    <div style={{display: 'flex', flexWrap: 'wrap', columnGap: gap, rowGap: size * 0.06}}>
+      {items}
     </div>
   );
 };

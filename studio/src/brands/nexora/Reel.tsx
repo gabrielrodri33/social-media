@@ -67,7 +67,7 @@ export const Reel: React.FC<ReelProps> = (p) => {
   return (
     <AbsoluteFill>
       <NxBackground animate />
-      <div style={{position: 'absolute', top: 190, left: SAFE.story.x, opacity: fadeIn(f, 0, 15)}}>
+      <div style={{position: 'absolute', top: SAFE.story.top, left: SAFE.story.x, opacity: fadeIn(f, 0, 15)}}>
         <NexoraLogo variant="logo" theme="dark" height={96} />
       </div>
       {p.scenes.map((s, i) => {
