@@ -10,8 +10,8 @@
     {
       "text": "Cada horário vago no meio da semana custa aluguel, equipe e equipamento.",
       "highlight": "custa",
-      "photo": "assets/nexora/unsplash/consultorio.jpg",
-      "focus": "40% 50%"
+      "photo": "assets/nexora/unsplash/cadeira-claraboia.jpg",
+      "focus": "50% 55%"
     },
     {
       "text": "Muitas vezes o problema não é o atendimento: é que o paciente não está te encontrando.",
@@ -22,8 +22,8 @@
     {
       "text": "Muita gente que procura dentista começa pelo Google e pelo Instagram.",
       "highlight": "Google e pelo Instagram.",
-      "photo": "assets/nexora/unsplash/celular-mao.jpg",
-      "focus": "50% 40%"
+      "photo": "assets/nexora/unsplash/celular-preto.jpg",
+      "focus": "45% 45%"
     },
     {
       "text": "Nosso trabalho é colocar sua clínica na frente de quem já procura o tratamento.",
@@ -36,8 +36,8 @@
       "highlight": "diagnóstico gratuito.",
       "sub": "Sem compromisso.",
       "button": "Chame no WhatsApp",
-      "photo": "assets/nexora/unsplash/consultorio.jpg",
-      "focus": "70% 50%"
+      "photo": "assets/nexora/unsplash/espelho-sonda.jpg",
+      "focus": "25% 65%"
     }
   ],
   "musicSrc": "assets/nexora/audio/trilha-01.mp3"

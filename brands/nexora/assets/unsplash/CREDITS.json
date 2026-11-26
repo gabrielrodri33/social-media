@@ -52,5 +52,32 @@
     "license": "Unsplash License (https://unsplash.com/license)",
     "description": "A dental mirror held in the foreground with a blurred dental chair behind",
     "downloaded": "2026-11-26"
+  },
+  "celular-preto.jpg": {
+    "id": "GaDzER4qyto",
+    "photographer": "Vojtech Bruzek",
+    "photographer_url": "https://unsplash.com/@vojtechbruzek?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/person-holding-black-iphone-7-GaDzER4qyto?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "person holding black iphone 7",
+    "downloaded": "2026-11-26"
+  },
+  "cadeira-claraboia.jpg": {
+    "id": "YEx4RBK8Bdw",
+    "photographer": "Ozkan Guner",
+    "photographer_url": "https://unsplash.com/@dentistozkanguner?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/a-dentist-chair-in-a-room-with-a-skylight-YEx4RBK8Bdw?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "a dentist chair in a room with a skylight",
+    "downloaded": "2026-11-26"
+  },
+  "espelho-sonda.jpg": {
+    "id": "ux18C551ghI",
+    "photographer": "Caroline LM",
+    "photographer_url": "https://unsplash.com/@carocaro1987?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/dental-mirror-and-explorer-tool-ux18C551ghI?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "A dental mirror and a metal explorer on a white surface",
+    "downloaded": "2026-11-26"
   }
 }

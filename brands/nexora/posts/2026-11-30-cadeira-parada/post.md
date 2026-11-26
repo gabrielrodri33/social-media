@@ -74,6 +74,10 @@ Resolvido em 2026-11-26: Gabriel confirmou link da bio → WhatsApp; CTA explíc
 - 2026-11-26 · revisor-copy · APROVADO (ciclo 2, volta 2) · 0
 - 2026-11-26 · revisor-visual · APROVADO (ciclo 2, volta 2) · 0
 - 2026-11-26 · sessão principal · Drive: rascunhos antigos na lixeira; novos RASCUNHO- (mp4, capa, story, LEGENDA.txt)
+- 2026-11-26 · Gabriel · refez o pedido: reel com fotos + criativo estático + áudio; aprovou o criativo e a voz Eric
+- 2026-11-26 · revisor-visual · REPROVADO (fotos, volta 1) · 4 (UI do Google Maps na cena 4; LG/câmera/caixas nas cenas 2 e 6; logo sobre área clara; contraste)
+- 2026-11-26 · revisor-copy · não concluiu (limite de uso da conta)
+- 2026-11-26 · sessão principal · fotos trocadas nas cenas 2, 4 e 6; véu mais escuro no topo e na faixa do texto
 
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:
