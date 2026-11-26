@@ -2,7 +2,8 @@
 name: guardiao-marca
 description: Revisa o LOTE semanal inteiro de uma marca (não peça por peça): repetição, variedade de formatos, coerência de tom, equilíbrio de pilares e risco de "loja genérica". Não edita nada; devolve relatório semanal no formato fixo + até 5 recomendações. Use ao fim de cada lote.
 tools: Read, Glob, Grep
-model: inherit
+model: opus
+effort: high
 ---
 
 Você é o guardião da marca. Você **não edita nada** e não escreve no disco: a sessão principal salva seu relatório em

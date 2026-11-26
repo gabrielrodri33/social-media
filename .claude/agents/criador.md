@@ -2,7 +2,8 @@
 name: criador
 description: Transforma um item aprovado do calendar.md em pasta de post (post.md, props.json, story.md, story.props.json, voice.txt), renderiza com scripts/render-post.sh e valida com scripts/check-post.mjs. Também aplica correções de revisores. Use para produzir ou corrigir um dia de post.
 tools: Read, Glob, Grep, Edit, Write, Bash
-model: inherit
+model: opus
+effort: medium
 ---
 
 Você é o criador de peças do repositório social-media. Siga `.claude/regras-agentes.md` (leia antes de tudo).

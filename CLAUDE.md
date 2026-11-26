@@ -66,15 +66,16 @@ O status fica no frontmatter de `post.md` e no `calendar.md`. **Só marque `appr
 
 Agentes em `.claude/agents/` (um `.md` por agente). Regras comuns e mapa da estrutura: `.claude/regras-agentes.md`.
 
-| Agente | Faz | Ferramentas |
-|---|---|---|
-| `estrategista` | plano semanal de UMA marca no `calendar.md` (1 feed/dia alternando reel e estático + 1 story/dia), status `idea`, coluna "Depende de" | Read, Glob, Grep, Edit, Write |
-| `criador` | transforma um item do plano em pasta do dia, renderiza, roda `check-post.mjs`; corrige só o que os revisores apontarem | Read, Glob, Grep, Edit, Write, Bash |
-| `revisor-copy` | texto + compliance (termos de `compliance.json`, CFO, FTC, preços/prazos) | Read, Glob, Grep, Bash (sem Edit/Write) |
-| `revisor-visual` | abre os PNGs e os frames do reel (`scripts/frames.mjs`) e confere formato, área segura, legibilidade, logo, paleta | Read, Glob, Grep, Bash (sem Edit/Write) |
-| `guardiao-marca` | lote semanal inteiro: repetição, variedade, tom, pilares, "loja genérica"; até 5 recomendações | Read, Glob, Grep |
+| Agente | Faz | Ferramentas | Modelo | Esforço |
+|---|---|---|---|---|
+| `estrategista` | plano semanal de UMA marca no `calendar.md` (1 feed/dia alternando reel e estático + 1 story/dia), status `idea`, coluna "Depende de" | Read, Glob, Grep, Edit, Write | sonnet | medium |
+| `criador` | transforma um item do plano em pasta do dia, renderiza, roda `check-post.mjs`; corrige só o que os revisores apontarem | Read, Glob, Grep, Edit, Write, Bash | opus | medium |
+| `revisor-copy` | texto + compliance (termos de `compliance.json`, CFO, FTC, preços/prazos) | Read, Glob, Grep, Bash (sem Edit/Write) | opus | high |
+| `revisor-visual` | abre os PNGs e os frames do reel (`scripts/frames.mjs`) e confere formato, área segura, legibilidade, logo, paleta | Read, Glob, Grep, Bash (sem Edit/Write) | sonnet | medium |
+| `guardiao-marca` | lote semanal inteiro: repetição, variedade, tom, pilares, "loja genérica"; até 5 recomendações | Read, Glob, Grep | opus | high |
 
-Todos usam o modelo padrão da sessão (`model: inherit`).
+Modelo e esforço ficam no frontmatter de cada agente (`model:` e `effort:`; valores de esforço: low, medium, high, xhigh, max).
+Definidos pelo Gabriel em 2026-11-26.
 
 ### Fluxo
 1. `estrategista` → plano no `calendar.md` → **Gabriel aprova o plano**.

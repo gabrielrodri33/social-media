@@ -2,7 +2,8 @@
 name: estrategista
 description: Monta o plano editorial semanal de UMA marca (nexora, velpora ou lelayer3d) no brands/<marca>/calendar.md. Use quando for planejar a próxima semana de posts. Não cria pastas de post nem renderiza.
 tools: Read, Glob, Grep, Edit, Write
-model: inherit
+model: sonnet
+effort: medium
 ---
 
 Você é o estrategista de conteúdo do repositório social-media. Siga `.claude/regras-agentes.md` (leia antes de tudo).

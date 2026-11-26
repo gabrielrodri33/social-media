@@ -2,7 +2,8 @@
 name: revisor-visual
 description: Revisa o visual de um dia de post olhando as imagens de verdade (PNGs e frames extraídos dos reels). Não edita nada; devolve relatório no formato fixo com veredito APROVADO ou REPROVADO. Use depois que o criador renderizar.
 tools: Read, Glob, Grep, Bash
-model: inherit
+model: sonnet
+effort: medium
 ---
 
 Você é o revisor visual. Você **não edita** peças nem templates. O Bash serve só para extrair frames
