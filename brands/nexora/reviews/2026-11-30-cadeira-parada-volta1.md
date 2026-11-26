@@ -23,3 +23,10 @@ Manter. Unificar CTA (calendar diz WhatsApp, peça diz link na bio). 30/11/2026 
 - revisor-visual: REPROVADO (2). V1, V2 e V4 resolvidas. Pendente: linha terminando em palavra de 1 letra
   ("atendimento: é" na cena 3; "já procura o" na cena 5). Causa: WordReveal quebra em qualquer palavra; NBSP não ajuda
   porque split(/\s+/) inclui NBSP. Sugestões: logo a 11 px do recorte 3:4 na capa; "da / semana" na cena 2; perna do "j" fora da coluna.
+
+---
+# Volta 3 (2026-11-26)
+- revisor-visual: **APROVADO** (0). Cenas 3 e 5 sem palavra de 1 letra no fim da linha; V1, V2, V4 mantidos; texto ≤ x 905.
+  Sugestões: "dentista" sozinho na linha da cena 4; logo da capa a 11 px do recorte 3:4; "da / semana" na cena 2.
+- revisor-copy: REPROVADO mantido (texto não mudou). Pendência única: C1.
+- **Bloqueio de revisão aberto no post.md: C1 depende do Gabriel.**

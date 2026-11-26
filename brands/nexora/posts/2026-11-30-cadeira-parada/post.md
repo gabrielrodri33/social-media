@@ -48,6 +48,13 @@ Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no a
 ## Notas de aprovação
 - 2026-11-26: produzido. Aguardando aprovação do Gabriel.
 
+## Bloqueio de revisão
+Aberto em 2026-11-26 após 2 voltas de correção. Decisão do Gabriel:
+- **C1 (revisor-copy): destino do CTA "Link na bio".** O botão tem ícone de WhatsApp e o BRAND/calendar pedem WhatsApp,
+  mas não está registrado para onde aponta o link da bio do @mkt.nexora. Opções: (a) a bio leva ao WhatsApp → trocar
+  botão/narração/legenda para deixar o WhatsApp explícito; (b) a bio leva à LP → tirar o ícone do WhatsApp do botão;
+  (c) CTA direto "Chama no WhatsApp" com o número. Visual está APROVADO.
+
 ## Revisões
 - 2026-11-26 · estrategista · manter (CTA divergente do calendar; Cyber Monday e 13º no dia) · 2 ajustes
 - 2026-11-26 · revisor-copy · REPROVADO · 3
@@ -55,6 +62,9 @@ Capa: `render/*-capa.png` (frame da 1ª cena). Música: opcional, adicionar no a
 - 2026-11-26 · criador · volta 1 aplicada (C2, C3, V1–V4) · 6
 - 2026-11-26 · revisor-copy · REPROVADO (volta 2) · 1 (C1: destino do link da bio, depende do Gabriel)
 - 2026-11-26 · revisor-visual · REPROVADO (volta 2) · 2 (palavra de 1 letra no fim da linha, cenas 3 e 5)
+- 2026-11-26 · criador · volta 2 aplicada (WordReveal prende palavra de 1 letra à seguinte) · 1
+- 2026-11-26 · revisor-visual · APROVADO (volta 3) · 0
+- 2026-11-26 · revisor-copy · REPROVADO mantido (sem mudança de texto desde a volta 2) · 1 (C1)
 
 ## Resultado (preencher ~7 dias após publicar)
 alcance: · salvamentos: · compartilhamentos: · visitas ao perfil:
