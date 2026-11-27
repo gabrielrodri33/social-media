@@ -36,3 +36,4 @@ Pasta raiz: [Social Media](https://drive.google.com/drive/folders/1wgUgFNYkL6zLg
 | nexora/2026-11-27-cadeira-vazia-stickman (teste GrowKaz) | `1UlbJ_ZWugsj8x79B8tP_3x-BZjE642p0` (MP4 recomprimido, 720p) |
 | nexora/2026-11-27-black-friday-3d | `183GpV-VI8tp_rmNVD8bD_IEnqdErg9GW` (MP4 original subido pelo Gabriel; capa e legenda por aqui) |
 | nexora/2026-11-27-seguidores-pacientes | `1fOdRIyL1yaDdljiA5PjcjWQb0drFB6YM` |
+| nexora/2026-11-28-recepcao-whatsapp | `1smC7-9M4_G9gOb6YHMblWPlBLeX2ZQdQ` |

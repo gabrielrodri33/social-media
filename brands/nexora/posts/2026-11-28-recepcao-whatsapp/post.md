@@ -6,7 +6,7 @@ format: feed
 pillar: educacao
 composition: Nexora-ChatCard
 frame: 0
-drive_folder:
+drive_folder: 1smC7-9M4_G9gOb6YHMblWPlBLeX2ZQdQ
 published_url:
 ---
 
