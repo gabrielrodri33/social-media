@@ -1,0 +1,70 @@
+{
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ESTRATÉGIA DIGITAL",
+      "title": "Sua clínica não precisa de mais seguidores. Precisa que as pessoas certas te chamem.",
+      "highlight": "as pessoas certas te chamem.",
+      "art": "chat"
+    },
+    {
+      "kind": "point",
+      "number": "01",
+      "title": "O erro mais comum das clínicas no digital",
+      "highlight": "erro mais comum",
+      "itemStyle": "x",
+      "items": [
+        {"text": "Postar sem objetivo"},
+        {"text": "Medir sucesso por curtida e seguidor"},
+        {"text": "Não ter um caminho até o WhatsApp"},
+        {"text": "Depender só de indicação"}
+      ],
+      "note": "Seguidor não paga tratamento. Quem agenda avaliação, sim."
+    },
+    {
+      "kind": "point",
+      "number": "02",
+      "title": "O que fica parado quando não há estratégia",
+      "highlight": "fica parado",
+      "itemStyle": "x",
+      "items": [
+        {"text": "Horários vagos no meio da semana"},
+        {"text": "Tratamentos de maior valor sem procura"},
+        {"text": "A clínica vizinha aparecendo antes no Google"},
+        {"text": "Verba de anúncio sem saber o que voltou"}
+      ]
+    },
+    {
+      "kind": "point",
+      "number": "03",
+      "title": "Com estratégia, sua clínica passa a:",
+      "highlight": "estratégia",
+      "itemStyle": "check",
+      "items": [
+        {"text": "Aparecer para quem já busca o tratamento no bairro"},
+        {"text": "Levar a visita direto para o WhatsApp da recepção"},
+        {"text": "Saber quanto investiu e quantos contatos vieram"},
+        {"text": "Ajustar todo mês com base em número real"}
+      ]
+    },
+    {
+      "kind": "point",
+      "eyebrow": "COMO A NEXORA ATUA",
+      "title": "Do Google ao WhatsApp, sem caixa-preta.",
+      "highlight": "sem caixa-preta.",
+      "itemStyle": "card",
+      "items": [
+        {"icon": "search", "text": "Google Ads", "sub": "Aparecer no momento em que a pessoa já quer resolver."},
+        {"icon": "phone", "text": "Instagram e página", "sub": "Conteúdo dentro das regras do CFO e página feita para virar conversa."},
+        {"icon": "chart", "text": "Relatório mensal", "sub": "Investimento, contatos e custo por contato, sem jargão."}
+      ]
+    },
+    {
+      "kind": "cta",
+      "title": "Quer saber por onde a sua clínica deveria começar?",
+      "highlight": "por onde",
+      "body": "Chame a gente no WhatsApp e receba um diagnóstico do seu perfil no Google.",
+      "button": "Falar no WhatsApp"
+    }
+  ]
+}

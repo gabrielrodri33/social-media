@@ -64,3 +64,6 @@
 - 2026-11-27: comercial 12 s "preço riscado" (`posts/2026-11-27-black-friday-3d/`, template novo `Nexora-Strike3D`): Three.js
   (R$ 2.500 metálico cortado por laser → explosão → R$ 500), voz Eric 1,2×, SFX gerados pelo GrowKaz em `assets/audio/sfx/`.
   Narração escrita pela sessão. Status draft; aguardando o visual do Gabriel. Mesmas pendências: R$ 2.500 real, 1 dia útil, licença da voz.
+- 2026-11-27: carrossel do sócio refeito (`posts/2026-11-27-seguidores-pacientes/`): mesma ideia ("seguidor não paga tratamento"),
+  sem promessa de resultado (removidos "pacientes todos os dias", "ticket médio", "agenda com previsibilidade", gráfico subindo),
+  slide 6 de CTA para o WhatsApp + story com enquete. `Nexora-Slide` ganhou `items` (✕/✓/cartões com ícone), `note` e `art: 'chat'`.
