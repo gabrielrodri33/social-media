@@ -157,6 +157,11 @@ Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <d
   (patch nosso no `render.mjs`). Estilo próprio **`nexora`** (navy + ciano) em `engine/styles.js`. Sem Whisper: a narração vem do
   ElevenLabs `with-timestamps` convertida em `{words:[...]}` e importada com `tools/parse_script.py`. O motor não desenha logo:
   o PNG oficial entra depois com ffmpeg (overlay). Teste de 2026-11-27: 27,8 s em 9:16 720p com 1 cena 3D = 53 s de render.
+- **Fluxo salvo: `/video-animado <marca> <slug>`** (`.claude/commands/video-animado.md`). Scripts: `scripts/animacao-voz.mjs`
+  (voz + tempo por palavra, `--tempo=1.15`) e `scripts/animacao-finalizar.sh` (logo + −14 LUFS + cópia ≤ 3 MB para o Drive).
+  Volumes padrão baixados (música −23 dB, SFX −14 dB): trilha e efeitos não podem brigar com a voz (Gabriel, 2026-11-27).
+- Efeitos sonoros gerados pelo plugin também servem ao Remotion: `python3 audio/sfx.py --make <nome> --out <arquivo.wav>`
+  (já gerados em `brands/nexora/assets/audio/sfx/`, usados no `Nexora-Strike3D` com volume 0,10–0,15).
 
 ## Fotos de banco (Unsplash)
 

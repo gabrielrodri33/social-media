@@ -34,3 +34,4 @@ Pasta raiz: [Social Media](https://drive.google.com/drive/folders/1wgUgFNYkL6zLg
 | nexora/2026-11-27-black-friday-spot | `1rEKgXj9-KusKNAyhnCHZPjbbbf55iCf9` (MP4 recomprimido) |
 | nexora/2026-11-27-black-friday-cinematico | `1wJOfnSvYROcovGXmZQH4uSiMmS7iMeMx` (MP4 recomprimido) |
 | nexora/2026-11-27-cadeira-vazia-stickman (teste GrowKaz) | `1UlbJ_ZWugsj8x79B8tP_3x-BZjE642p0` (MP4 recomprimido, 720p) |
+| nexora/2026-11-27-black-friday-3d | `183GpV-VI8tp_rmNVD8bD_IEnqdErg9GW` (MP4 original subido pelo Gabriel; capa e legenda por aqui) |

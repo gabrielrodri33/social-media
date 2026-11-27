@@ -32,6 +32,6 @@ dur = probe_duration(os.path.join(root, voice_dst))
 cfg = {"title": a.title or a.name, "aspect": a.aspect, "resolution": a.resolution, "fps": a.fps, "style": a.style,
        "voiceover": voice_dst.replace("\\", "/"), "script": script_dst.replace("\\", "/") if script_dst else None,
        "duration": round(dur, 3), "captions": bool(a.captions), "bars": None, "fadeIn": 0.5, "fadeOut": 0.8,
-       "music": {"enabled": True, "gainDb": -17}, "sfx": {"enabled": True, "gainDb": -6}, "loudness": -14}
+       "music": {"enabled": True, "gainDb": -23}, "sfx": {"enabled": True, "gainDb": -14}, "loudness": -14}
 save_json(os.path.join(root, "config.json"), cfg)
 print(f"created {root}  (voiceover {dur:.1f}s, {a.aspect} {a.resolution} @ {a.fps}fps, style {a.style})")
