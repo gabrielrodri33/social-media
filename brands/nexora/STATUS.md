@@ -69,3 +69,6 @@
   slide 6 de CTA para o WhatsApp + story com enquete. `Nexora-Slide` ganhou `items` (✕/✓/cartões com ícone), `note` e `art: 'chat'`.
 - 2026-11-27: criativo estático "O paciente chamou às 9h. A clínica respondeu às 15h." (`posts/2026-11-28-recepcao-whatsapp/`),
   tema novo (recepção / tempo de resposta). Template novo `Nexora-ChatCard` (texto + celular com conversa genérica, sem interface de terceiro).
+- 2026-11-27: criativo estático "Perguntaram 'quanto custa?'. Não responda só com o preço." (`posts/2026-11-29-quanto-custa/`),
+  par do 9h × 15h (sáb = problema, dom = solução). `Nexora-ChatCard`: selo `tone: good|bad`, celular mais alto, fonte menor com 5+ mensagens.
+  O PNG do 28/11 no Drive é da versão anterior do template (celular mais baixo); conteúdo igual.

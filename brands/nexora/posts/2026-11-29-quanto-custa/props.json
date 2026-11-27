@@ -1,0 +1,33 @@
+{
+  "title": "Perguntaram “quanto custa?”.\nNão responda só com o preço.",
+  "highlight": "só com o preço.",
+  "body": "Acolha, explique por que a avaliação vem antes e ofereça dois horários. Salve e mande para a sua recepção.",
+  "contact": "Paciente",
+  "messages": [
+    {
+      "from": "in",
+      "text": "Oi, quanto custa o clareamento?",
+      "time": "10:03"
+    },
+    {
+      "from": "sys",
+      "tone": "good",
+      "text": "RESPOSTA EM 2 MIN"
+    },
+    {
+      "from": "out",
+      "text": "Oi! Que bom que chamou 😊 O valor depende da avaliação: cada caso é diferente.",
+      "time": "10:05"
+    },
+    {
+      "from": "out",
+      "text": "Tenho quinta às 14h ou sexta às 10h. Qual fica melhor?",
+      "time": "10:05"
+    },
+    {
+      "from": "in",
+      "text": "Quinta às 14h!",
+      "time": "10:07"
+    }
+  ]
+}
