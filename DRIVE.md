@@ -31,3 +31,4 @@ Pasta raiz: [Social Media](https://drive.google.com/drive/folders/1wgUgFNYkL6zLg
 | nexora/2026-12-05-contas-no-nome | `1W2FHPcNbVW9rlDqhfbgVkP6jDW85LPYa` |
 | nexora/2026-12-06-agenda-janeiro | `1eteYz7IU_n_hibds4aCbf5ZoMuu1VlLb` |
 | nexora/2026-11-27-black-friday | `1YaOZwn3gTxk7txFYdwt_7t2dLVy7_R2l` (MP4 recomprimido a 1,5 MB para caber no envio) |
+| nexora/2026-11-27-black-friday-spot | `1rEKgXj9-KusKNAyhnCHZPjbbbf55iCf9` (MP4 recomprimido) |

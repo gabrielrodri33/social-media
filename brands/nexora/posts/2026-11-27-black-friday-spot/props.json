@@ -1,0 +1,48 @@
+{
+  "scenes": [
+    {
+      "kind": "photo",
+      "caption": "Você tem uma clínica odontológica?",
+      "highlight": "clínica odontológica?",
+      "photo": "assets/nexora/unsplash/cadeira-vazia.jpg",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "photo",
+      "caption": "Então presta atenção nessa oportunidade.",
+      "highlight": "oportunidade.",
+      "photo": "assets/nexora/unsplash/cadeira-claraboia.jpg",
+      "focus": "50% 55%"
+    },
+    {
+      "kind": "panels",
+      "caption": "Tráfego pago + calendário editorial para Instagram",
+      "highlight": "calendário editorial"
+    },
+    {
+      "kind": "price",
+      "from": "R$ 2.500",
+      "to": "R$ 500"
+    },
+    {
+      "kind": "seal",
+      "lines": [
+        "BLACK FRIDAY",
+        "80% OFF"
+      ],
+      "caption": "Entrega em 1 dia útil"
+    },
+    {
+      "kind": "final",
+      "lines": [
+        "BLACK FRIDAY NEXORA",
+        "80% OFF",
+        "R$ 500",
+        "TRÁFEGO PAGO + CALENDÁRIO EDITORIAL",
+        "ENTREGA EM 1 DIA ÚTIL"
+      ],
+      "cta": "CHAME AGORA"
+    }
+  ],
+  "musicSrc": "assets/nexora/audio/trilha-promo-bf.mp3"
+}

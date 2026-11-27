@@ -25,11 +25,14 @@ if (existsSync(propsFile)) {
   }
 }
 const text = lines.join(' ');
+// Velocidade da fala por post (opcional): arquivo voice-speed.txt com número entre 0.7 e 1.2.
+const speedFile = path.join(postDir, 'voice-speed.txt');
+const speed = existsSync(speedFile) ? Number(readFileSync(speedFile, 'utf8').trim()) : undefined;
 const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${cfg.voice_id}/with-timestamps?output_format=mp3_44100_128`, {
   method: 'POST',
   // Sem ELEVENLABS_API_KEY, não manda header de chave: o proxy injeta a credencial salva no ambiente.
   headers: {...(process.env.ELEVENLABS_API_KEY ? {'xi-api-key': process.env.ELEVENLABS_API_KEY} : {}), 'Content-Type': 'application/json'},
-  body: JSON.stringify({text, model_id: cfg.model_id, language_code: cfg.language_code, voice_settings: cfg.voice_settings}),
+  body: JSON.stringify({text, model_id: cfg.model_id, language_code: cfg.language_code, voice_settings: {...cfg.voice_settings, ...(speed ? {speed} : {})}}),
 });
 if (!res.ok) {
   console.error(`ElevenLabs ${res.status}: ${await res.text()}`);

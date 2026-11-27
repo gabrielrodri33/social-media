@@ -8,6 +8,7 @@ import {Slide} from './brands/nexora/Slide';
 import {Story} from './brands/nexora/Story';
 import {PhotoCard} from './brands/nexora/PhotoCard';
 import {Promo, PROMO_FRAMES} from './brands/nexora/Promo';
+import {Spot, calculateSpotMetadata} from './brands/nexora/Spot';
 
 // ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
 // opcionais (eyebrow, body, sub...), senão eles vazam para todo post que não os define.
@@ -83,6 +84,15 @@ export const Root: React.FC = () => (
         {...FORMATS.story}
         defaultProps={{seal: ['BLACK FRIDAY', '80% OFF'] as [string, string], priceFrom: 'R$ 2.500', priceTo: 'R$ 500',
           offer: 'CONFIGURAÇÃO DO TRÁFEGO PAGO + CALENDÁRIO EDITORIAL', delivery: 'ENTREGA EM 1 DIA ÚTIL', cta: 'FALE COM A NEXORA'}}
+      />
+      <Composition
+        id="Nexora-Spot"
+        component={Spot}
+        durationInFrames={450}
+        fps={FPS}
+        {...FORMATS.story}
+        calculateMetadata={calculateSpotMetadata}
+        defaultProps={{scenes: [{kind: 'final' as const, lines: ['BLACK FRIDAY NEXORA'], cta: 'CHAME AGORA'}]}}
       />
       <Composition
         id="Nexora-PhotoCard"

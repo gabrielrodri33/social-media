@@ -19,13 +19,13 @@ export type PromoProps = {
   musicSrc?: string;
 };
 
-const BLACK = '#02050c';
-const ELECTRIC = '#1f8bff';
+export const BLACK = '#02050c';
+export const ELECTRIC = '#1f8bff';
 const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const ease = Easing.bezier(0.16, 1, 0.3, 1);
 
 // ---------- ambiente ----------
-const Room: React.FC<{intensity?: number}> = ({intensity = 1}) => {
+export const Room: React.FC<{intensity?: number}> = ({intensity = 1}) => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{background: BLACK, overflow: 'hidden'}}>
@@ -47,7 +47,7 @@ const Room: React.FC<{intensity?: number}> = ({intensity = 1}) => {
   );
 };
 
-const Particles: React.FC = () => {
+export const Particles: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <>
@@ -101,7 +101,7 @@ const Glass: React.FC<{children: React.ReactNode; w: number; h: number}> = ({chi
   </div>
 );
 
-const AdsPanel: React.FC = () => {
+export const AdsPanel: React.FC = () => {
   const f = useCurrentFrame();
   const bars = [0.35, 0.55, 0.45, 0.7, 0.6, 0.85, 0.75];
   return (
@@ -120,7 +120,7 @@ const AdsPanel: React.FC = () => {
   );
 };
 
-const CalendarPanel: React.FC = () => {
+export const CalendarPanel: React.FC = () => {
   const f = useCurrentFrame();
   const days = new Array(20).fill(0);
   return (
@@ -168,7 +168,7 @@ const Objects: React.FC = () => {
 };
 
 // explosão de luz azul (cena 3)
-const Burst: React.FC = () => {
+export const Burst: React.FC = () => {
   const f = useCurrentFrame();
   const a = interpolate(f, [0, 4, 22], [0, 1, 0], cl);
   const r = interpolate(f, [0, 22], [0.2, 2.4], {...cl, easing: ease});
@@ -185,13 +185,13 @@ const Burst: React.FC = () => {
 };
 
 // ---------- cena 4: selo ----------
-const Seal: React.FC<{lines: [string, string]}> = ({lines}) => {
+export const Seal: React.FC<{lines: [string, string]; dur?: number}> = ({lines, dur = 52}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const s = spring({frame: f, fps, config: {damping: 11, mass: 0.9}});
   const rot = interpolate(f, [0, 24], [-90, 0], {...cl, easing: ease});
   const shine = interpolate(f, [16, 40], [-120, 220], cl);
-  const out = interpolate(f, [46, 52], [1, 0], cl);
+  const out = interpolate(f, [dur - 6, dur], [1, 0], cl);
   return (
     <AbsoluteFill style={{perspective: 1400, justifyContent: 'center', alignItems: 'center', opacity: out}}>
       <div style={{width: 760, height: 760, borderRadius: '50%', transform: `scale(${0.4 + s * 0.6}) rotateY(${rot}deg)`,
@@ -213,13 +213,13 @@ const Seal: React.FC<{lines: [string, string]}> = ({lines}) => {
 };
 
 // ---------- cena 5: preço ----------
-const Price: React.FC<{from: string; to: string}> = ({from, to}) => {
+export const Price: React.FC<{from: string; to: string; dur?: number}> = ({from, to, dur = 76}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const a = interpolate(f, [0, 6], [0, 1], cl);
   const strike = interpolate(f, [6, 16], [0, 100], {...cl, easing: ease});
   const big = spring({frame: f - 14, fps, config: {damping: 10}});
-  const out = interpolate(f, [70, 76], [1, 0], cl);
+  const out = interpolate(f, [dur - 6, dur], [1, 0], cl);
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', opacity: out}}>
       <div style={{position: 'relative', fontFamily: DISPLAY, fontWeight: 800, fontSize: 110, color: '#8ea6c4', opacity: a}}>
