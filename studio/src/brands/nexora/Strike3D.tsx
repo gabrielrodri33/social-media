@@ -242,12 +242,17 @@ export const Strike3D: React.FC<Strike3DProps> = (p) => {
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.7) 100%)', pointerEvents: 'none'}} />
       {/* áudio */}
       {p.audioSrc && <Sequence from={LEAD} layout="none"><Audio src={staticFile(p.audioSrc)} /></Sequence>}
-      {p.musicSrc && <Audio src={staticFile(p.musicSrc)} volume={(fr) => interpolate(fr, [0, 10, durationInFrames - 20, durationInFrames], [0, 0.22, 0.22, 0], cl)} />}
+      {p.musicSrc && <Audio src={staticFile(p.musicSrc)} volume={(fr) => {
+        // ducking: trilha baixa enquanto a voz fala, um pouco mais alta só antes e depois dela
+        const vEnd = LEAD + Math.round((p.audioDuration ?? 11.2) * fps);
+        const bed = interpolate(fr, [0, LEAD - 4, LEAD + 4, vEnd - 4, vEnd + 6], [0.12, 0.12, 0.05, 0.05, 0.12], cl);
+        return bed * interpolate(fr, [0, 8, durationInFrames - 15, durationInFrames], [0, 1, 1, 0], cl);
+      }} />}
       <Sequence from={0} layout="none"><Audio src={sfx('whoosh')} volume={0.5} /></Sequence>
-      <Sequence from={T2 - 18 - 30} layout="none"><Audio src={sfx('riser')} volume={0.35} /></Sequence>
+      <Sequence from={T2 - 18 - 30} layout="none"><Audio src={sfx('riser')} volume={0.25} /></Sequence>
       <Sequence from={T2 - 18} layout="none"><Audio src={sfx('impact')} volume={0.45} /></Sequence>
       <Sequence from={T2} layout="none"><Audio src={sfx('flash')} volume={0.5} /></Sequence>
-      <Sequence from={T2 + 4} layout="none"><Audio src={sfx('shimmer')} volume={0.4} /></Sequence>
+      <Sequence from={T2 + 4} layout="none"><Audio src={sfx('shimmer')} volume={0.3} /></Sequence>
       <Sequence from={T3 - 6} layout="none"><Audio src={sfx('swish')} volume={0.45} /></Sequence>
       <Sequence from={TE} layout="none"><Audio src={sfx('pop')} volume={0.35} /></Sequence>
       <Sequence from={TF} layout="none"><Audio src={sfx('ding')} volume={0.35} /></Sequence>
