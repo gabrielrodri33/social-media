@@ -18,7 +18,9 @@ const cfg = JSON.parse(readFileSync(path.join(root, 'brands', brand, 'voice.json
 const lines = readFileSync(path.join(postDir, 'voice.txt'), 'utf8').split('\n').map((l) => l.trim()).filter(Boolean);
 const propsFile = path.join(postDir, 'props.json');
 if (existsSync(propsFile)) {
-  const n = JSON.parse(readFileSync(propsFile, 'utf8')).scenes?.length;
+  const sc = JSON.parse(readFileSync(propsFile, 'utf8')).scenes;
+  // cenas podem dividir uma fala (campo line): o número de falas é o maior line + 1
+  const n = sc ? Math.max(...sc.map((x, i) => x.line ?? i)) + 1 : undefined;
   if (n && n !== lines.length) {
     console.error(`voice.txt tem ${lines.length} linhas, mas props.json tem ${n} cenas. Precisa ser 1 linha por cena.`);
     process.exit(1);

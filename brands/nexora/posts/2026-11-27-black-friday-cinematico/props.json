@@ -1,0 +1,58 @@
+{
+  "scenes": [
+    {
+      "kind": "photo",
+      "line": 0,
+      "photo": "assets/nexora/unsplash/recepcao-moderna.jpg",
+      "photos": [
+        "assets/nexora/unsplash/recepcao-moderna.jpg",
+        "assets/nexora/unsplash/cadeira-claraboia.jpg",
+        "assets/nexora/unsplash/cadeira-vazia.jpg"
+      ],
+      "caption": "SUA CLÍNICA MERECE UM MARKETING PROFISSIONAL",
+      "highlight": "MARKETING PROFISSIONAL"
+    },
+    {
+      "kind": "panels",
+      "line": 1,
+      "caption": "Calendário editorial + tráfego pago",
+      "highlight": "tráfego pago",
+      "weight": 0.8
+    },
+    {
+      "kind": "title",
+      "line": 1,
+      "lines": [
+        "BLACK FRIDAY",
+        "NEXORA",
+        "80% OFF"
+      ],
+      "highlight": "80% OFF",
+      "weight": 1.2
+    },
+    {
+      "kind": "price",
+      "line": 2,
+      "weight": 1.0,
+      "from": "R$ 2.500",
+      "to": "R$ 500"
+    },
+    {
+      "kind": "final",
+      "line": 2,
+      "weight": 1.85,
+      "lines": [
+        "CONFIGURAÇÃO DO TRÁFEGO PAGO + CALENDÁRIO EDITORIAL PARA INSTAGRAM",
+        "ENTREGA EM 1 DIA ÚTIL"
+      ],
+      "sizes": [
+        60,
+        40
+      ],
+      "pillIndex": 1,
+      "cta": "FALE COM A NEXORA"
+    }
+  ],
+  "musicSrc": "assets/nexora/audio/trilha-promo-bf.mp3",
+  "tail": 5.3
+}

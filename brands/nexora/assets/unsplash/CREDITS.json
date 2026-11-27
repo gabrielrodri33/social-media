@@ -79,5 +79,23 @@
     "license": "Unsplash License (https://unsplash.com/license)",
     "description": "A dental mirror and a metal explorer on a white surface",
     "downloaded": "2026-11-26"
+  },
+  "recepcao-moderna.jpg": {
+    "id": "Ypv0MH4izf8",
+    "photographer": "Aalo Lens",
+    "photographer_url": "https://unsplash.com/@aalolens?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/modern-lobby-with-reception-desk-and-seating-area-Ypv0MH4izf8?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "Modern lobby with reception desk and seating area",
+    "downloaded": "2026-11-27"
+  },
+  "sala-espera-azul.jpg": {
+    "id": "B_sK_xgzwVA",
+    "photographer": "Benyamin Bohlouli",
+    "photographer_url": "https://unsplash.com/@benyamin_bohlouli?utm_source=social_media_studio&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/blue-couch-beside-green-potted-plant-B_sK_xgzwVA?utm_source=social_media_studio&utm_medium=referral",
+    "license": "Unsplash License (https://unsplash.com/license)",
+    "description": "blue couch beside green potted plant",
+    "downloaded": "2026-11-27"
   }
 }

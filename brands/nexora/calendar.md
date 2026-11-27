@@ -44,3 +44,4 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 | 2026-12-06 | reel + story | educação | [agenda-janeiro](posts/2026-12-06-agenda-janeiro/post.md) | draft |
 | 2026-11-27 | reel (oferta) | conversão | [black-friday](posts/2026-11-27-black-friday/post.md) | draft (aguardando Gabriel) |
 | 2026-11-27 | reel narrado (oferta) | conversão | [black-friday-spot](posts/2026-11-27-black-friday-spot/post.md) | draft (no Drive) |
+| 2026-11-27 | reel cinematográfico (oferta) | conversão | [black-friday-cinematico](posts/2026-11-27-black-friday-cinematico/post.md) | draft (no Drive) |

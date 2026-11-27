@@ -83,7 +83,8 @@ const meta = fm(post);
 const props = read('props.json') ? JSON.parse(read('props.json')) : {};
 if (meta.format === 'reel') {
   const voice = read('voice.txt');
-  const scenes = props.scenes?.length ?? 0;
+  // cenas podem dividir uma fala (campo line): número de falas = maior line + 1
+  const scenes = props.scenes ? Math.max(...props.scenes.map((x, i) => x.line ?? i)) + 1 : 0;
   if (voice === null) warns.push('reel sem voice.txt (sai só com texto na tela)');
   else {
     const lines = voice.split('\n').map((l) => l.trim()).filter(Boolean).length;
