@@ -71,4 +71,4 @@
   tema novo (recepção / tempo de resposta). Template novo `Nexora-ChatCard` (texto + celular com conversa genérica, sem interface de terceiro).
 - 2026-11-27: criativo estático "Perguntaram 'quanto custa?'. Não responda só com o preço." (`posts/2026-11-29-quanto-custa/`),
   par do 9h × 15h (sáb = problema, dom = solução). `Nexora-ChatCard`: selo `tone: good|bad`, celular mais alto, fonte menor com 5+ mensagens.
-  O PNG do 28/11 no Drive é da versão anterior do template (celular mais baixo); conteúdo igual.
+  PNG do 28/11 no Drive substituído pela versão nova do template (antigo foi para a lixeira).
