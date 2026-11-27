@@ -10,7 +10,19 @@
     "esModuleInterop": true,
     "types": [],
     "baseUrl": ".",
-    "paths": {"react": ["./node_modules/@types/react"], "react/jsx-runtime": ["./node_modules/@types/react/jsx-runtime"]}
+    "paths": {
+      "react": [
+        "./node_modules/@types/react"
+      ],
+      "react/jsx-runtime": [
+        "./node_modules/@types/react/jsx-runtime"
+      ]
+    },
+    "resolveJsonModule": true
   },
-  "include": ["src", "../brands/nexora/brand-kit/react", "remotion.config.ts"]
+  "include": [
+    "src",
+    "../brands/nexora/brand-kit/react",
+    "remotion.config.ts"
+  ]
 }

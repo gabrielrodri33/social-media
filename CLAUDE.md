@@ -116,6 +116,9 @@ Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <d
     (y 135 a 1215) e margem lateral de 90 px. As faixas de cima e de baixo recebem só fundo.
   - No código: `studio/src/shared/formats.ts` (`FORMATS`, `SAFE`, `FEED_SQUARE`). Nunca números soltos.
 - Fontes vêm de `@fontsource/*` (npm), não de Google Fonts em runtime.
+- **3D (Three.js via `@remotion/three`)** para cenas simples (selo, placas, texto em relevo, partículas): exemplo `Nexora-Seal3D`.
+  No cloud renderiza com WebGL por software: `--gl=swangle` (no `post.md`: `gl: swangle`). Teste de 2026-11-27: 5 s em 1080×1920 = 43 s.
+  O logo **nunca** vai para o 3D: entra plano (NexoraLogo) sobreposto em HTML.
 - **Em ambiente cloud do Claude Code**, use o Chromium instalado:
   `--browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell`
   (se mudar, procure em `/opt/pw-browsers/`). `scripts/render-post.sh` já detecta isso.

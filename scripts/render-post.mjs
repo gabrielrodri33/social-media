@@ -50,6 +50,8 @@ const renderOne = (mdFile, propsFile, suffix) => {
   const meta = fm(mdFile);
   const props = JSON.parse(readFileSync(propsFile, 'utf8'));
   const comp = meta.composition;
+  // Cenas 3D (Three.js) precisam de WebGL por software no cloud: frontmatter `gl: swangle`.
+  const glFlag = meta.gl ? [`--gl=${meta.gl}`] : [];
   if (!comp) throw new Error(`${mdFile} sem composition:`);
   const name = `${slug}${suffix}`;
   if (meta.format === 'carousel') {
@@ -65,10 +67,10 @@ const renderOne = (mdFile, propsFile, suffix) => {
     } else {
       console.log('(sem voice.mp3: reel sai só com texto na tela)');
     }
-    remotion('render', comp, path.join(out, `${name}.mp4`), props);
-    remotion('still', comp, path.join(out, `${name}-capa.png`), props, [`--frame=${meta.frame || 45}`]);
+    remotion('render', comp, path.join(out, `${name}.mp4`), props, glFlag);
+    remotion('still', comp, path.join(out, `${name}-capa.png`), props, [`--frame=${meta.frame || 45}`, ...glFlag]);
   } else {
-    remotion('still', comp, path.join(out, `${name}.png`), props, [`--frame=${meta.frame || 0}`]);
+    remotion('still', comp, path.join(out, `${name}.png`), props, [`--frame=${meta.frame || 0}`, ...glFlag]);
   }
 };
 
