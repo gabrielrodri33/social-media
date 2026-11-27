@@ -44,6 +44,8 @@
       Depois: `node scripts/tts.mjs nexora <dia>` + render de novo nos 4 reels.
 
 ## Decisões
+- 2026-11-27: **Higgsfield não está mais disponível** (Gabriel). Não há ferramenta para gerar pessoa/apresentador realista com
+  lip sync. Vídeo com apresentador = gravação real (celular) editada no Remotion.
 - 2026-11-26: modelos dos revisores validados contra a volta 1 do dia 30/11: revisor-copy em medium deixou passar a
   promessa "coloca sua clínica" → fica **opus/high**; revisor-visual em sonnet só pegou a pílula de 28 px depois do item
   "medir TODA linha de texto" no checklist → fica **sonnet/medium** com esse item.
