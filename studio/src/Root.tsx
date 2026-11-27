@@ -10,6 +10,7 @@ import {PhotoCard} from './brands/nexora/PhotoCard';
 import {Promo, PROMO_FRAMES} from './brands/nexora/Promo';
 import {Spot, calculateSpotMetadata} from './brands/nexora/Spot';
 import {Seal3D} from './brands/nexora/Seal3D';
+import {ChatCard} from './brands/nexora/ChatCard';
 import {Strike3D, calculateStrikeMetadata} from './brands/nexora/Strike3D';
 
 // ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
@@ -113,6 +114,14 @@ export const Root: React.FC = () => (
         calculateMetadata={calculateStrikeMetadata}
         defaultProps={{title: ['ATENÇÃO,', 'CLÍNICAS ODONTOLÓGICAS'] as [string, string], priceFrom: 'R$ 2.500', priceTo: 'R$ 500', off: '80% OFF',
           services: ['CONFIGURAÇÃO DO TRÁFEGO PAGO', 'CALENDÁRIO EDITORIAL PARA INSTAGRAM'] as [string, string], delivery: 'ENTREGA EM 1 DIA ÚTIL', cta: 'FALE AGORA!'}}
+      />
+      <Composition
+        id="Nexora-ChatCard"
+        component={ChatCard}
+        durationInFrames={1}
+        fps={FPS}
+        {...FORMATS.feed}
+        defaultProps={{title: 'O paciente chamou às 9h.', contact: 'Paciente', messages: [{from: 'in' as const, text: 'Oi!', time: '09:12'}]}}
       />
       <Composition
         id="Nexora-PhotoCard"

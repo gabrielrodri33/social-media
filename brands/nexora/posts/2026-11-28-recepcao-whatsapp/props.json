@@ -1,0 +1,27 @@
+{
+  "title": "O paciente chamou às 9h.\nA clínica respondeu às 15h.",
+  "highlight": "às 15h.",
+  "body": "O anúncio traz a conversa. Quem transforma em avaliação é a resposta rápida da recepção.",
+  "contact": "Paciente",
+  "messages": [
+    {
+      "from": "in",
+      "text": "Oi! Vocês fazem clareamento? Queria marcar uma avaliação.",
+      "time": "09:12"
+    },
+    {
+      "from": "sys",
+      "text": "6 HORAS DEPOIS"
+    },
+    {
+      "from": "out",
+      "text": "Olá! Fazemos sim 😊 Qual dia fica bom pra você?",
+      "time": "15:47"
+    },
+    {
+      "from": "in",
+      "text": "Ah, obrigado! Já marquei em outra clínica.",
+      "time": "15:52"
+    }
+  ]
+}

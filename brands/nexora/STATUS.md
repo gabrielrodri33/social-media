@@ -67,3 +67,5 @@
 - 2026-11-27: carrossel do sócio refeito (`posts/2026-11-27-seguidores-pacientes/`): mesma ideia ("seguidor não paga tratamento"),
   sem promessa de resultado (removidos "pacientes todos os dias", "ticket médio", "agenda com previsibilidade", gráfico subindo),
   slide 6 de CTA para o WhatsApp + story com enquete. `Nexora-Slide` ganhou `items` (✕/✓/cartões com ícone), `note` e `art: 'chat'`.
+- 2026-11-27: criativo estático "O paciente chamou às 9h. A clínica respondeu às 15h." (`posts/2026-11-28-recepcao-whatsapp/`),
+  tema novo (recepção / tempo de resposta). Template novo `Nexora-ChatCard` (texto + celular com conversa genérica, sem interface de terceiro).

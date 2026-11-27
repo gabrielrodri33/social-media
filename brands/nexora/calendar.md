@@ -47,3 +47,4 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 | 2026-11-27 | reel cinematográfico (oferta) | conversão | [black-friday-cinematico](posts/2026-11-27-black-friday-cinematico/post.md) | draft (no Drive) |
 | 2026-11-27 | reel 3D preço riscado (oferta) | conversão | [black-friday-3d](posts/2026-11-27-black-friday-3d/post.md) | draft (no Drive) |
 | 2026-11-27 | carrossel "seguidores × pacientes" (refeito do sócio) + story enquete | educação | [seguidores-pacientes](posts/2026-11-27-seguidores-pacientes/post.md) | draft (no Drive) |
+| 2026-11-28 | criativo estático "9h × 15h" (recepção no WhatsApp) | educação | [recepcao-whatsapp](posts/2026-11-28-recepcao-whatsapp/post.md) | draft |
