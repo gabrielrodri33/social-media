@@ -58,3 +58,6 @@
   passa por check-post + revisor-copy; vários dias por rodada de revisor.
 - 2026-11-26: criativos da Nexora produzidos aqui, no estúdio único.
 - 2026-11-26: narração dos reels em pt-BR via ElevenLabs.
+- 2026-11-27: teste do plugin GrowKaz (bonecos de palito): `growkaz-stickman-studio/projects/nexora-cadeira-vazia/`
+  (27,8 s, 9:16 720p, voz Eric, trilha + SFX gerados, 1 cena 3D, logo PNG no fim). RASCUNHO de teste, não publicado.
+  Pendências para publicar: licença da voz (plano pago ElevenLabs), render em 1080p, aprovação do Gabriel.

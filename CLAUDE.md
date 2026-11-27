@@ -153,6 +153,10 @@ Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <d
   ativado em `.claude/settings.json`. Carrega a partir da sessão seguinte à instalação.
 - No primeiro uso ele instala dependências (pacotes npm, numpy/scipy/faster-whisper, modelo do Whisper ~150–500 MB).
 - É um produto de terceiro (GrowKaz): manter o repositório privado (o pacote está versionado aqui).
+- Estúdio instalado em `growkaz-stickman-studio/` (cópia do `kit`). No cloud: `CHROMIUM_PATH=/opt/pw-browsers/chromium node render.mjs ...`
+  (patch nosso no `render.mjs`). Estilo próprio **`nexora`** (navy + ciano) em `engine/styles.js`. Sem Whisper: a narração vem do
+  ElevenLabs `with-timestamps` convertida em `{words:[...]}` e importada com `tools/parse_script.py`. O motor não desenha logo:
+  o PNG oficial entra depois com ffmpeg (overlay). Teste de 2026-11-27: 27,8 s em 9:16 720p com 1 cena 3D = 53 s de render.
 
 ## Fotos de banco (Unsplash)
 

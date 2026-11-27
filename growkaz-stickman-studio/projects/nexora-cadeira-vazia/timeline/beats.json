@@ -1,0 +1,82 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.0,
+  "speechEnd": 2.857,
+  "text": "Terça-feira, três da tarde. A cadeira está vazia.",
+  "end": 3.091
+ },
+ {
+  "i": 1,
+  "start": 3.091,
+  "speechStart": 3.241,
+  "speechEnd": 5.33,
+  "text": "E horário vago no meio da semana custa caro.",
+  "end": 5.463
+ },
+ {
+  "i": 2,
+  "start": 5.463,
+  "speechStart": 5.613,
+  "speechEnd": 9.722,
+  "text": "Enquanto isso, alguém no seu bairro digita: dentista perto de mim.",
+  "end": 9.814
+ },
+ {
+  "i": 3,
+  "start": 9.814,
+  "speechStart": 9.964,
+  "speechEnd": 11.176,
+  "text": "A pessoa já quer resolver.",
+  "end": 11.268
+ },
+ {
+  "i": 4,
+  "start": 11.268,
+  "speechStart": 11.418,
+  "speechEnd": 13.518,
+  "text": "E chama no WhatsApp a clínica que encontrar.",
+  "end": 13.752
+ },
+ {
+  "i": 5,
+  "start": 13.752,
+  "speechStart": 13.902,
+  "speechEnd": 16.153,
+  "text": "A Nexora coloca a sua clínica nesse momento:",
+  "end": 16.528
+ },
+ {
+  "i": 6,
+  "start": 16.528,
+  "speechStart": 16.678,
+  "speechEnd": 18.546,
+  "text": "Google, página e Instagram.",
+  "end": 18.729
+ },
+ {
+  "i": 7,
+  "start": 18.729,
+  "speechStart": 18.879,
+  "speechEnd": 20.565,
+  "text": "E todo mês, um relatório claro:",
+  "end": 20.657
+ },
+ {
+  "i": 8,
+  "start": 20.657,
+  "speechStart": 20.807,
+  "speechEnd": 24.452,
+  "text": "quanto investiu e quantos contatos vieram. Sem promessa milagrosa.",
+  "end": 24.585
+ },
+ {
+  "i": 9,
+  "start": 24.585,
+  "speechStart": 24.735,
+  "speechEnd": 26.249,
+  "text": "Fale com a gente no WhatsApp.",
+  "end": 27.749
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "title": "Nexora - Cadeira vazia",
+ "aspect": "9:16",
+ "resolution": "720p",
+ "fps": 24,
+ "style": "nexora",
+ "voiceover": "input/voiceover.mp3",
+ "script": "input/script.json",
+ "duration": 27.75,
+ "captions": true,
+ "bars": null,
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -17
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

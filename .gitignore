@@ -5,3 +5,6 @@ brands/*/posts/*/render/
 .DS_Store
 studio/public/voice/
 brands/*/assets/**/videos/
+growkaz-stickman-studio/node_modules/
+growkaz-stickman-studio/**/build/
+growkaz-stickman-studio/**/out/

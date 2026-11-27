@@ -1,0 +1,341 @@
+{
+ "title": "Nexora - Cadeira vazia",
+ "duration": 27.75,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0,
+   "end": 1.6,
+   "line": "Terça-feira, três da tarde.",
+   "scene": "Wide consultório: janela com persiana, relógio 15h, cadeira vazia, push lento",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "clock",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s02",
+   "start": 1.6,
+   "end": 3.1,
+   "line": "A cadeira está vazia.",
+   "scene": "Médio: dentista no banquinho olhando a cadeira vazia, expressão triste",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s03",
+   "start": 3.1,
+   "end": 5.45,
+   "line": "E horário vago no meio da semana custa caro.",
+   "scene": "Blueprint: agenda SEG-SEX, slots vagos de TER/QUA piscam em coral em 'vago'",
+   "set": "bp",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "start": 5.45,
+   "end": 7.45,
+   "line": "Enquanto isso, alguém no seu bairro",
+   "scene": "Wide rua do bairro fim de tarde, paciente caminhando olhando o celular",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s05",
+   "start": 7.45,
+   "end": 9.85,
+   "line": "digita: dentista perto de mim.",
+   "scene": "Insert: celular grande na mão, busca digitando 'dentista perto de mim' no ritmo da fala",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s06",
+   "start": 9.85,
+   "end": 11.3,
+   "line": "A pessoa já quer resolver.",
+   "scene": "bigFace paciente decidida, rua desfocada",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s07",
+   "start": 11.3,
+   "end": 13.75,
+   "line": "E chama no WhatsApp a clínica que encontrar.",
+   "scene": "Celular: 3 resultados genéricos, toque no primeiro, balão de conversa verde aparece",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.3,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s08",
+   "start": 13.75,
+   "end": 16.55,
+   "line": "A Nexora coloca a sua clínica nesse momento:",
+   "scene": "3D: bairro low-poly, um prédio acende em ciano com feixe/pino, órbita",
+   "set": "3d",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "start": 16.55,
+   "end": 18.75,
+   "line": "Google, página e Instagram.",
+   "scene": "Blueprint vertical: 3 ícones (busca, página, câmera) acendem em cada palavra",
+   "set": "bp",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.85,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 1.45,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 18.75,
+   "end": 20.65,
+   "line": "E todo mês, um relatório claro:",
+   "scene": "Médio: dentista no consultório recebe tablet com relatório, sorri",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s11",
+   "start": 20.65,
+   "end": 23.15,
+   "line": "quanto investiu e quantos contatos vieram.",
+   "scene": "Card de relatório: INVESTIMENTO e CONTATOS, barras preenchendo, sem números",
+   "set": "bp",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 1.3,
+     "name": "counter",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 23.15,
+   "end": 24.6,
+   "line": "Sem promessa milagrosa.",
+   "scene": "Linha grande 'SEM PROMESSA MILAGROSA' sobre consultório desfocado",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "captions": false
+  },
+  {
+   "id": "s13",
+   "start": 24.6,
+   "end": 27.75,
+   "line": "Fale com a gente no WhatsApp.",
+   "scene": "Encerramento: dentista acena, pílula 'FALE NO WHATSAPP', espaço do logo no topo",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 13.75,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 13.75,
+   "end": 27.75,
+   "mood": "hopeful",
+   "intensity": 0.55
+  }
+ ]
+}
