@@ -145,6 +145,15 @@ Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <d
 **lelayer3d**
 - Só use fotos reais das impressões enviadas. Não invente peças, preços nem prazos.
 
+## Plugins
+
+- **growkaz-stickman** (pacote `tubemakers.plugin`, instalado em 2026-11-27, escopo de projeto): vídeos animados com bonecos
+  de palito, 2D + Three.js, Whisper, música e SFX **gerados por código**. Comandos: `/new-video`, `/video-styles`,
+  `/render-video`, `/video-sound`. Arquivos em `plugins/growkaz-stickman/`; catálogo local em `plugins/.claude-plugin/marketplace.json`;
+  ativado em `.claude/settings.json`. Carrega a partir da sessão seguinte à instalação.
+- No primeiro uso ele instala dependências (pacotes npm, numpy/scipy/faster-whisper, modelo do Whisper ~150–500 MB).
+- É um produto de terceiro (GrowKaz): manter o repositório privado (o pacote está versionado aqui).
+
 ## Fotos de banco (Unsplash)
 
 Decidido em 2026-11-26: fotos de banco vêm da **API do Unsplash** (licença Unsplash: uso comercial, sem marca d'água).

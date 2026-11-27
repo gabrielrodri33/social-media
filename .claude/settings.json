@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "social-media-local": {
+      "source": {
+        "source": "directory",
+        "path": "/home/user/social-media/plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "growkaz-stickman@social-media-local": true
+  }
+}

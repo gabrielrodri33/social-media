@@ -1,0 +1,13 @@
+{
+  "name": "social-media-local",
+  "owner": {"name": "Gabriel"},
+  "description": "Plugins locais do repositório social-media.",
+  "plugins": [
+    {
+      "name": "growkaz-stickman",
+      "source": "./growkaz-stickman",
+      "description": "GrowKaz Stickman Studio (pacote tubemakers.plugin): vídeos animados com bonecos de palito, 2D + Three.js, Whisper, música e SFX gerados por código.",
+      "version": "1.1.0"
+    }
+  ]
+}
