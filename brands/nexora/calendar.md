@@ -42,3 +42,4 @@ Status: idea · draft · approved · published · Frequência: 1 feed/dia (alter
 | 2026-12-04 | reel + story | método | [como-funciona](posts/2026-12-04-como-funciona/post.md) | draft |
 | 2026-12-05 | card + story | posicionamento | [contas-no-nome](posts/2026-12-05-contas-no-nome/post.md) | draft |
 | 2026-12-06 | reel + story | educação | [agenda-janeiro](posts/2026-12-06-agenda-janeiro/post.md) | draft |
+| 2026-11-27 | reel (oferta) | conversão | [black-friday](posts/2026-11-27-black-friday/post.md) | draft (aguardando Gabriel) |

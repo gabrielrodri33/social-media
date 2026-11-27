@@ -15,6 +15,8 @@
 (Revisada em 2026-11-26: antes era 2 feed + 1 reel + 2 stories por dia para Nexora e VELPORA.)
 
 ## Pendências
+- [ ] **Reel Black Friday (27/11)**: template novo `Nexora-Promo` (12 s). Antes de publicar, Gabriel confirma: R$ 2.500 é preço
+      real anterior; "1 dia útil" é cumprível; data de fim da oferta; o que inclui o calendário. Trilha sem licença comercial.
 - [ ] **Drive 30/11 (2026-11-26):** subiram capa, criativo, story e LEGENDA.txt (versão com fotos). **O MP4 (9,1 MB) não subiu:**
       a ferramenta do Drive aceita ~3 MB por envio. Rascunhos antigos foram para a lixeira. Gabriel decide como subir o reel.
 - [ ] **Gabriel decide o uso do criativo estático de 30/11** (revisor-copy): substitui o reel no feed, vai para outro dia

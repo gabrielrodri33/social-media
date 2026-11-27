@@ -1,0 +1,9 @@
+{
+  "seal": ["BLACK FRIDAY", "80% OFF"],
+  "priceFrom": "R$ 2.500",
+  "priceTo": "R$ 500",
+  "offer": "CONFIGURAÇÃO DO TRÁFEGO PAGO + CALENDÁRIO EDITORIAL",
+  "delivery": "ENTREGA EM 1 DIA ÚTIL",
+  "cta": "FALE COM A NEXORA",
+  "musicSrc": "assets/nexora/audio/trilha-promo-bf.mp3"
+}

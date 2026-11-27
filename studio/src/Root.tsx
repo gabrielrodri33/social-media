@@ -7,6 +7,7 @@ import {Reel, calculateReelMetadata} from './brands/nexora/Reel';
 import {Slide} from './brands/nexora/Slide';
 import {Story} from './brands/nexora/Story';
 import {PhotoCard} from './brands/nexora/PhotoCard';
+import {Promo, PROMO_FRAMES} from './brands/nexora/Promo';
 
 // ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
 // opcionais (eyebrow, body, sub...), senão eles vazam para todo post que não os define.
@@ -73,6 +74,15 @@ export const Root: React.FC = () => (
         fps={FPS}
         {...FORMATS.story}
         defaultProps={{title: 'Sua agenda tem buraco no meio da semana?', highlight: 'buraco', sticker: 'poll' as const}}
+      />
+      <Composition
+        id="Nexora-Promo"
+        component={Promo}
+        durationInFrames={PROMO_FRAMES}
+        fps={FPS}
+        {...FORMATS.story}
+        defaultProps={{seal: ['BLACK FRIDAY', '80% OFF'] as [string, string], priceFrom: 'R$ 2.500', priceTo: 'R$ 500',
+          offer: 'CONFIGURAÇÃO DO TRÁFEGO PAGO + CALENDÁRIO EDITORIAL', delivery: 'ENTREGA EM 1 DIA ÚTIL', cta: 'FALE COM A NEXORA'}}
       />
       <Composition
         id="Nexora-PhotoCard"
