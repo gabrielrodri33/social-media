@@ -10,6 +10,7 @@ import {PhotoCard} from './brands/nexora/PhotoCard';
 import {Promo, PROMO_FRAMES} from './brands/nexora/Promo';
 import {Spot, calculateSpotMetadata} from './brands/nexora/Spot';
 import {Seal3D} from './brands/nexora/Seal3D';
+import {Strike3D, calculateStrikeMetadata} from './brands/nexora/Strike3D';
 
 // ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
 // opcionais (eyebrow, body, sub...), senão eles vazam para todo post que não os define.
@@ -102,6 +103,16 @@ export const Root: React.FC = () => (
         fps={FPS}
         {...FORMATS.story}
         defaultProps={{top: 'BLACK FRIDAY', bottom: '80% OFF'}}
+      />
+      <Composition
+        id="Nexora-Strike3D"
+        component={Strike3D}
+        durationInFrames={360}
+        fps={FPS}
+        {...FORMATS.story}
+        calculateMetadata={calculateStrikeMetadata}
+        defaultProps={{title: ['ATENÇÃO,', 'CLÍNICAS ODONTOLÓGICAS'] as [string, string], priceFrom: 'R$ 2.500', priceTo: 'R$ 500', off: '80% OFF',
+          services: ['CONFIGURAÇÃO DO TRÁFEGO PAGO', 'CALENDÁRIO EDITORIAL PARA INSTAGRAM'] as [string, string], delivery: 'ENTREGA EM 1 DIA ÚTIL', cta: 'FALE AGORA!'}}
       />
       <Composition
         id="Nexora-PhotoCard"

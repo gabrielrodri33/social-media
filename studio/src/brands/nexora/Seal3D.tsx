@@ -16,10 +16,10 @@ import {C, NexoraLogo} from './brand';
 export type Seal3DProps = {top: string; bottom: string};
 
 const cl = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const font = new FontLoader().parse(fontJson as unknown as Parameters<FontLoader['parse']>[0]);
+export const font = new FontLoader().parse(fontJson as unknown as Parameters<FontLoader['parse']>[0]);
 
 // Mapa de ambiente procedural (sem download): dá o reflexo metálico.
-const Env: React.FC = () => {
+export const Env: React.FC = () => {
   const {gl, scene} = useThree();
   useEffect(() => {
     const pm = new THREE.PMREMGenerator(gl);

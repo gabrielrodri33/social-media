@@ -61,3 +61,6 @@
 - 2026-11-27: teste do plugin GrowKaz (bonecos de palito): `growkaz-stickman-studio/projects/nexora-cadeira-vazia/`
   (27,8 s, 9:16 720p, voz Eric, trilha + SFX gerados, 1 cena 3D, logo PNG no fim). RASCUNHO no Drive (pasta `1UlbJ_ZWugsj8x79B8tP_3x-BZjE642p0`). Gabriel curtiu muito (2026-11-27).
   Pendências para publicar: licença da voz (plano pago ElevenLabs), render em 1080p, aprovação do Gabriel.
+- 2026-11-27: comercial 12 s "preço riscado" (`posts/2026-11-27-black-friday-3d/`, template novo `Nexora-Strike3D`): Three.js
+  (R$ 2.500 metálico cortado por laser → explosão → R$ 500), voz Eric 1,2×, SFX gerados pelo GrowKaz em `assets/audio/sfx/`.
+  Narração escrita pela sessão. Status draft; aguardando o visual do Gabriel. Mesmas pendências: R$ 2.500 real, 1 dia útil, licença da voz.
