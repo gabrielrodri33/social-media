@@ -115,6 +115,9 @@ Comando que guia a sessão principal por este fluxo: **`/produzir-dia <marca> <d
   - Criativos de feed e carrossel: **1080×1350**, com **todo o conteúdo no quadrado central 1080×1080**
     (y 135 a 1215) e margem lateral de 90 px. As faixas de cima e de baixo recebem só fundo.
   - No código: `studio/src/shared/formats.ts` (`FORMATS`, `SAFE`, `FEED_SQUARE`). Nunca números soltos.
+  - **Imagens que aparecem no grid do perfil (post único e capa de carrossel): margem lateral 135 px** (`SAFE.feedGrid`).
+    O grid do Instagram é 3:4; carrossel publicado em 1:1 perde 135 px de cada lado (aconteceu em 2026-11-28 no @mkt.nexora).
+    Ao publicar carrossel no app, tocar no ícone de expandir para manter 4:5.
 - Fontes vêm de `@fontsource/*` (npm), não de Google Fonts em runtime.
 - **3D (Three.js via `@remotion/three`)** para cenas simples (selo, placas, texto em relevo, partículas): exemplo `Nexora-Seal3D`.
   No cloud renderiza com WebGL por software: `--gl=swangle` (no `post.md`: `gl: swangle`). Teste de 2026-11-27: 5 s em 1080×1920 = 43 s.

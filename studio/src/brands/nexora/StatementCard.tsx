@@ -12,7 +12,7 @@ export const StatementCard: React.FC<StatementCardProps> = ({eyebrow, title, hig
   return (
     <AbsoluteFill>
       <NxBackground />
-      <AbsoluteFill style={{padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`}}>
+      <AbsoluteFill style={{padding: `${SAFE.feedGrid.top}px ${SAFE.feedGrid.x}px ${SAFE.feedGrid.bottom}px`}}>
       <NexoraLogo variant="logo" theme="dark" height={80} />
       <div style={{flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
         <div style={{alignSelf: 'flex-start', padding: '12px 30px', borderRadius: 999, border: `2.5px solid ${C.cyan}`, color: C.white,

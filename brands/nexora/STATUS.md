@@ -72,3 +72,7 @@
 - 2026-11-27: criativo estático "Perguntaram 'quanto custa?'. Não responda só com o preço." (`posts/2026-11-29-quanto-custa/`),
   par do 9h × 15h (sáb = problema, dom = solução). `Nexora-ChatCard`: selo `tone: good|bad`, celular mais alto, fonte menor com 5+ mensagens.
   PNG do 28/11 no Drive substituído pela versão nova do template (antigo foi para a lixeira).
+- 2026-11-28: carrossel "seguidores × pacientes" publicado no perfil em 1:1 → o grid 3:4 cortou o texto (Gabriel: não refazer).
+  Regra nova: `SAFE.feedGrid` (margem 135 px) em post único e capa de carrossel; ChatCard ajustado. Publicar carrossel sempre em 4:5.
+  Story do dia 28 (enquete "quanto tempo a recepção leva para responder?") feito na pasta 2026-11-28-recepcao-whatsapp.
+- Perfil: bio atual diz "Transformamos negócios em resultados 🚀" e "Marketing & Growth" (genérico, contradiz "sem promessa milagrosa"). Sugerir bio nova.

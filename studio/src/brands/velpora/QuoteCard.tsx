@@ -16,7 +16,7 @@ export const QuoteCard: React.FC<QuoteCardProps> = ({eyebrow, quote, emphasis, f
   const o = interpolate(f, [0, 20], [0, 1], {extrapolateRight: 'clamp'});
   const parts = emphasis && quote.includes(emphasis) ? quote.split(emphasis) : [quote];
   return (
-    <AbsoluteFill style={{background: V.cream, padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`}}>
+    <AbsoluteFill style={{background: V.cream, padding: `${SAFE.feedGrid.top}px ${SAFE.feedGrid.x}px ${SAFE.feedGrid.bottom}px`}}>
       {/* moldura fina em sand */}
       <div style={{position: 'absolute', left: 44, right: 44, top: FEED_SQUARE.top + 10, bottom: FEED_SQUARE.bottom + 10, border: `2px solid ${V.sand}`, borderRadius: 6}} />
       <div style={{fontFamily: SANS, fontWeight: 600, fontSize: 26, letterSpacing: 9, color: V.sage, opacity: o}}>{eyebrow}</div>

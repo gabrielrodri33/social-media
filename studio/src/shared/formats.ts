@@ -12,6 +12,10 @@ export const FORMATS = {
 export const FEED_SQUARE = {top: 135, bottom: 135} as const;
 export const SAFE = {
   feed: {x: 90, top: FEED_SQUARE.top + 50, bottom: FEED_SQUARE.bottom + 50},
+  // Imagens que aparecem no GRID do perfil (post único e capa de carrossel): margem lateral 135 px.
+  // Motivo (2026-11-28): carrossel publicado em 1:1 + grid 3:4 cortou 135 px de cada lado no perfil @mkt.nexora.
+  // Com 135 px o texto sobrevive tanto ao 4:5 quanto ao 1:1 no grid 3:4.
+  feedGrid: {x: 135, top: FEED_SQUARE.top + 50, bottom: FEED_SQUARE.bottom + 50},
   story: {x: 90, top: 250, bottom: 340},
 } as const;
 

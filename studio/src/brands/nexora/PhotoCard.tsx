@@ -19,7 +19,7 @@ export type PhotoCardProps = {
 export const PhotoCard: React.FC<PhotoCardProps> = ({photo, focus, eyebrow, title, highlight, body, button}) => (
   <AbsoluteFill>
     <PhotoBg src={photo} dur={1} focus={focus} />
-    <AbsoluteFill style={{padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`, justifyContent: 'space-between'}}>
+    <AbsoluteFill style={{padding: `${SAFE.feedGrid.top}px ${SAFE.feedGrid.x}px ${SAFE.feedGrid.bottom}px`, justifyContent: 'space-between'}}>
       <NexoraLogo variant="logo" theme="dark" height={80} />
       <div>
         {eyebrow && <Pill>{eyebrow}</Pill>}

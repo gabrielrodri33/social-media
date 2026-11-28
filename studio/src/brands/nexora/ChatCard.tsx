@@ -29,14 +29,14 @@ const Bubble: React.FC<{m: ChatMsg; fs: number}> = ({m, fs}) => {
 export const ChatCard: React.FC<ChatCardProps> = ({title, highlight, body, contact, messages, footer = 'Fale com a Nexora · link na bio'}) => (
   <AbsoluteFill>
     <NxBackground />
-    <AbsoluteFill style={{padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`, flexDirection: 'column'}}>
+    <AbsoluteFill style={{padding: `${SAFE.feedGrid.top}px ${SAFE.feedGrid.x}px ${SAFE.feedGrid.bottom}px`, flexDirection: 'column'}}>
       <NexoraLogo variant="logo" theme="dark" height={80} />
-      <div style={{flex: 1, display: 'flex', alignItems: 'center', gap: 40}}>
+      <div style={{flex: 1, display: 'flex', alignItems: 'center', gap: 32}}>
         <div style={{flex: 1}}>
-          <div style={{fontFamily: DISPLAY, fontWeight: 700, fontSize: 64, lineHeight: 1.1, letterSpacing: -1.5, color: C.white, whiteSpace: 'pre-line'}}><Hl text={title} highlight={highlight} /></div>
-          {body && <div style={{marginTop: 30, fontFamily: FONT, fontSize: 33, lineHeight: 1.4, color: C.ice}}>{body}</div>}
+          <div style={{fontFamily: DISPLAY, fontWeight: 700, fontSize: 54, lineHeight: 1.1, letterSpacing: -1.5, color: C.white, whiteSpace: 'pre-line'}}><Hl text={title} highlight={highlight} /></div>
+          {body && <div style={{marginTop: 26, fontFamily: FONT, fontSize: 29, lineHeight: 1.4, color: C.ice}}>{body}</div>}
         </div>
-        <div style={{flex: 'none', width: 400, height: 790, borderRadius: 52, background: '#040b18', padding: 16,
+        <div style={{flex: 'none', width: 350, height: 780, borderRadius: 48, background: '#040b18', padding: 16,
           border: `3px solid ${C.sky}55`, boxShadow: `0 30px 90px rgba(0,0,0,.55), 0 0 90px ${C.cyan}22`}}>
           <div style={{height: '100%', borderRadius: 38, background: '#0b1f3a', overflow: 'hidden', display: 'flex', flexDirection: 'column'}}>
             <div style={{display: 'flex', alignItems: 'center', gap: 14, padding: '26px 22px 18px', borderBottom: `1px solid ${C.sky}33`, background: '#0e2747'}}>
@@ -44,7 +44,7 @@ export const ChatCard: React.FC<ChatCardProps> = ({title, highlight, body, conta
               <div style={{fontFamily: FONT, fontWeight: 700, fontSize: 25, color: C.ice}}>{contact}</div>
             </div>
             <div style={{flex: 1, minHeight: 0, overflow: 'hidden', padding: '20px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: messages.length > 4 ? 10 : 14}}>
-              {messages.map((m, i) => <Bubble key={i} m={m} fs={messages.length > 4 ? 21 : 23} />)}
+              {messages.map((m, i) => <Bubble key={i} m={m} fs={messages.length > 4 ? 19 : 21} />)}
             </div>
           </div>
         </div>

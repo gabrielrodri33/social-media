@@ -45,7 +45,7 @@ const Mark: React.FC<{kind: 'x' | 'check'; size: number}> = ({kind, size}) => (
 
 // Celular com conversa genérica (sem logo de terceiro) para a capa.
 const ChatArt: React.FC = () => (
-  <div style={{position: 'absolute', right: SAFE.feed.x + 20, bottom: SAFE.feed.bottom + 70, width: 280, height: 410, borderRadius: 44,
+  <div style={{position: 'absolute', right: SAFE.feedGrid.x, bottom: SAFE.feed.bottom + 70, width: 270, height: 410, borderRadius: 44,
     background: '#050d1c', border: `3px solid ${C.sky}55`, boxShadow: `0 30px 90px rgba(0,0,0,.55), 0 0 80px ${C.cyan}22`, padding: 18, transform: 'rotate(6deg)'}}>
     <div style={{height: '100%', borderRadius: 32, background: '#0b1f3a', padding: '22px 16px', display: 'flex', flexDirection: 'column', gap: 13, fontFamily: FONT, fontSize: 20}}>
       <div style={{display: 'flex', alignItems: 'center', gap: 12, paddingBottom: 14, borderBottom: `1px solid ${C.sky}33`}}>
@@ -67,7 +67,7 @@ export const Slide: React.FC<SlideProps> = ({kind, index, total, eyebrow, title,
     <AbsoluteFill>
       <NxBackground />
       {art === 'chat' && <ChatArt />}
-      <AbsoluteFill style={{padding: `${SAFE.feed.top}px ${SAFE.feed.x}px ${SAFE.feed.bottom}px`}}>
+      <AbsoluteFill style={{padding: `${SAFE.feed.top}px ${kind === 'cover' ? SAFE.feedGrid.x : SAFE.feed.x}px ${SAFE.feed.bottom}px`}}>
         <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
           <NexoraLogo variant={kind === 'point' ? 'symbol' : 'logo'} theme="dark" height={kind === 'point' ? 64 : 84} />
           <div style={{fontFamily: FONT, fontWeight: 600, fontSize: 26, letterSpacing: 3, color: C.sky}}>{index}/{total}</div>
