@@ -1,0 +1,15 @@
+{
+  "hook": "O paciente chamou às 9h.",
+  "after": "A clínica respondeu às 15h.",
+  "afterHighlight": "às 15h.",
+  "contact": "Paciente",
+  "skipLabel": "6 HORAS DEPOIS",
+  "messages": [
+    {"from": "in", "text": "Oi! Vocês fazem clareamento? Queria marcar uma avaliação.", "time": "09:12"},
+    {"from": "out", "text": "Olá! Fazemos sim 😊 Qual dia fica bom pra você?", "time": "15:47"},
+    {"from": "in", "text": "Ah, obrigado! Já marquei em outra clínica.", "time": "15:52"}
+  ],
+  "finalTitle": "O anúncio traz a conversa. Quem responde rápido, agenda.",
+  "finalHighlight": "Quem responde rápido, agenda.",
+  "cta": "Fale com a Nexora · link na bio"
+}

@@ -11,6 +11,7 @@ import {Promo, PROMO_FRAMES} from './brands/nexora/Promo';
 import {Spot, calculateSpotMetadata} from './brands/nexora/Spot';
 import {Seal3D} from './brands/nexora/Seal3D';
 import {ChatCard} from './brands/nexora/ChatCard';
+import {ChatReel, CHAT_REEL_FRAMES} from './brands/nexora/ChatReel';
 import {Strike3D, calculateStrikeMetadata} from './brands/nexora/Strike3D';
 
 // ATENÇÃO: o Remotion mistura defaultProps com as props do post. Não coloque em defaultProps campos
@@ -122,6 +123,17 @@ export const Root: React.FC = () => (
         fps={FPS}
         {...FORMATS.feed}
         defaultProps={{title: 'O paciente chamou às 9h.', contact: 'Paciente', messages: [{from: 'in' as const, text: 'Oi!', time: '09:12'}]}}
+      />
+      <Composition
+        id="Nexora-ChatReel"
+        component={ChatReel}
+        durationInFrames={CHAT_REEL_FRAMES}
+        fps={FPS}
+        {...FORMATS.story}
+        defaultProps={{hook: 'O paciente chamou às 9h.', after: 'A clínica respondeu às 15h.', contact: 'Paciente', skipLabel: '6 HORAS DEPOIS',
+          finalTitle: 'Quem responde rápido, agenda.', cta: 'Fale com a Nexora · link na bio',
+          messages: [{from: 'in' as const, text: 'Oi!', time: '09:12'}, {from: 'out' as const, text: 'Olá!', time: '15:47'}, {from: 'in' as const, text: 'Ok', time: '15:52'}] as [
+            {from: 'in'; text: string; time: string}, {from: 'out'; text: string; time: string}, {from: 'in'; text: string; time: string}]}}
       />
       <Composition
         id="Nexora-PhotoCard"
