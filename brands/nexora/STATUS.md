@@ -76,3 +76,6 @@
   Regra nova: `SAFE.feedGrid` (margem 135 px) em post único e capa de carrossel; ChatCard ajustado. Publicar carrossel sempre em 4:5.
   Story do dia 28 (enquete "quanto tempo a recepção leva para responder?") feito na pasta 2026-11-28-recepcao-whatsapp.
 - Perfil: bio atual diz "Transformamos negócios em resultados 🚀" e "Marketing & Growth" (genérico, contradiz "sem promessa milagrosa"). Sugerir bio nova.
+- 2026-11-28: posts do dia = feed 9h × 15h (re-render com margem de grid) + story enquete + reel animado `Nexora-ChatReel`
+  (`posts/2026-11-28-recepcao-reel/`, 14 s, sem voz; música entra no app pela biblioteca liberada do Instagram = sem problema de licença).
+  PNG do feed 28/11 no Drive é anterior à margem de grid: substituir ao subir.
